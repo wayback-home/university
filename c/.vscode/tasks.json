@@ -6,7 +6,7 @@
     "presentation" : { "reveal": "always" },
     "tasks": [
           //C++ 컴파일
-          {
+            {
             "label": "save and compile for C++",
             "command": "g++",
             "args": [
@@ -69,9 +69,9 @@
         },
         // 바이너리 실행(Ubuntu)
         {
-             "label": "execute",
-             "command": "${fileDirname}/${fileBasenameNoExtension}.exe",
-             "group": "test"
+        "label": "execute",
+        "command": "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "group": "test"
         }
         // 바이너리 실행(Windows)
     ]
