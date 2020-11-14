@@ -6,13 +6,13 @@
     "presentation" : { "reveal": "always" },
     "tasks": [
           //C++ 컴파일
-            {
+        {
             "label": "save and compile for C++",
             "command": "g++",
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
 
@@ -43,7 +43,7 @@
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
 
@@ -69,10 +69,21 @@
         },
         // 바이너리 실행(Ubuntu)
         {
-        "label": "execute",
-        "command": "${fileDirname}/${fileBasenameNoExtension}.exe",
-        "group": "test"
+            "label": "execute",
+            "command": "${fileDirname}/${fileBasenameNoExtension}",
+            "group": "test"
         }
         // 바이너리 실행(Windows)
+        //{
+        //    "label": "execute",
+        //    "command": "cmd",
+        //    "group": "test",
+        //    "args": [
+        //        "/C", "${fileDirname}\\${fileBasenameNoExtension}"
+        //    ]
+    
+    
     ]
 }
+
+
