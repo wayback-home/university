@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#define char getWord[16];
 
-int contrastWord(char reverse[sizeof(getWord)])
+char contrastWord(char reverse)
 {
     //나중에 작성 예정
     //반복문을 이용해서 문자열을 뒤집게 설정
