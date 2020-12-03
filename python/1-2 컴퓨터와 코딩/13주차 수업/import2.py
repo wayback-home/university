@@ -2,7 +2,7 @@ infile = None
 instr = ""
 
 infile = open(
-    "C:\Users\dudtj\study\importfiles\data1.txt",
+    "data1.txt",
     "r",
     encoding="UTF-8",
 )
