@@ -1,5 +1,5 @@
-//컴파일
+//save and compile(build)
 ctrl + alt + c
 
-//컴파일된 파일 실행
+//execute
 ctrl + alt + a
