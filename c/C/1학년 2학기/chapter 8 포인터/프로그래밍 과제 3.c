@@ -13,6 +13,6 @@ int main(void)
     for (i = 0; i < sizeof(arr) / sizeof(int); i++)
     {
         arr[i] = arr[i] - get_num;
-        printf(" %d", arr[i]);
+        printf(" %d", parr[i]);
     }
 }
