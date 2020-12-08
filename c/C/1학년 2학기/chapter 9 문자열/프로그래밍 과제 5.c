@@ -1,8 +1,3 @@
-/* 
-컴퓨터정보기술공학부
-1826052 최영서
-C언어 10주차 과제
-*/
 #include <stdio.h>
 #include <string.h>
 
