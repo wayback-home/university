@@ -7,8 +7,8 @@ int str_print(int get_return, char *lhs, char *rhs);
 
 int main(void)
 {
-    char get_str1[128] = "";
-    char get_str2[128] = "";
+    char get_str1[32] = "";
+    char get_str2[32] = "";
 
     printf("첫 번째 문자열 ? ");
     fgets(get_str1, sizeof(get_str1), stdin);
@@ -27,12 +27,19 @@ int strcmp_ic(char *lhs, char *rhs)
     char temp2[sizeof(rhs)] = "";
 
     int i = 0;
-    for (i = 0; i < sizeof(lhs); i++)
+    for (i = 0; i < strlen(lhs); i++)
     {
         temp1[i] = tolower(lhs[i]);
-        temp2[i] = tolower(rhs[i]);
     }
 
+    int k = 0;
+    for (k = 0; k < strlen(rhs); k++)
+    {
+        temp2[k] = tolower(rhs[k]);
+    }
+
+    get_return = strcmp(temp1, temp2);
+    /* 
     if (temp1 > temp2)
     {
         get_return = 1;
@@ -41,17 +48,22 @@ int strcmp_ic(char *lhs, char *rhs)
     {
         get_return = 0;
     }
-    else
+    else if (temp1 < temp2)
     {
         get_return = -1;
-    }
+    } */
 
     return get_return;
 }
 
 int str_print(int get_return, char *lhs, char *rhs)
 {
-    if (get_return == 1;)
+    if (get_return == 0)
     {
+        printf("%s == %s", lhs, rhs);
+    }
+    else
+    {
+        printf("%s != %s", lhs, rhs);
     }
 }
