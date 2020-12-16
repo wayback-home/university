@@ -1,6 +1,8 @@
-a = int(input())
-b = int(input())
+def multiply(*var):
+    result = 1
+    for num in var:
+        result = result * num
+    return result
 
-c = a + b
 
-print(c)
+print(multiply(10, 20))
