@@ -1,5 +1,8 @@
+# 객체지향 프로그래밍 1주차 예제 : 프로그램 작성, 컴퓨터공학과 2학년 1826052 최영서
+# 1
 print("hello")
 
+# 2
 import sys
 
 if sys.argv[1] == "/?":
@@ -9,6 +12,7 @@ if sys.argv[1] == "/?":
 else:
     print("안녕하세요~" + sys.argv[1] + "님!!")
 
+# 3
 from datetime import datetime
 
 print(datetime.now())
