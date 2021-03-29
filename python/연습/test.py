@@ -42,9 +42,5 @@ lyrics = [
     "Celebrity",
     "You are my celebrity",
 ]
-print(lyrics[42])\
-
-testss
-test
-test
-test
+print(lyrics[42])
+testtesttest
