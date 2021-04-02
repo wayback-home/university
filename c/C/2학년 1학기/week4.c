@@ -31,7 +31,6 @@ int main()
             PORTF = 0x01 << led;
             _delay_ms(500);
         };
-        //
         PORTD = 0x00;
         PORTE = 0x00;
         for (led = 0; led < 8; led++)
