@@ -53,9 +53,7 @@ def printResult(op1, op2, operater, result):
 if "__name__" == "__main__":
     menuTitle = "내가 만든 계산기 프로그램"
     menuContents = ["더하기", "빼기", "곱하기", "나누기"]
-
     operater = ["+", "-", "X", "/"]
-
     mycal = [Plus, Minus, Multiply, Divide]
 
     printMenu(menuTitle, menuContents)
@@ -80,6 +78,7 @@ if "__name__" == "__main__":
 
     menuTitle = "가위바위보 프로그램"
     menuContents = ["가위", "바위", "보"]
+
     printMenu(menuTitle, menuContents)
     menuNumber = getValidNumber()
 
