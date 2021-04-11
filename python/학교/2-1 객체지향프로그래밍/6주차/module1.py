@@ -17,10 +17,13 @@ def Divide(op1, op2):
     return op1 / op2
 
 
-def printMenu(title, contents):
+def printMenu(title, name, contents):
     os.system("cls")
     print("\n\n\n")
     print("\t\t" + title)
+    print("\n\n")
+
+    print("\t\t\t\t" + name)
     print("\n\n")
 
     i = 0
