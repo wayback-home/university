@@ -1,4 +1,3 @@
-# import module1
 import module1
 
 title = "김소월 시선"
