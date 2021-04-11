@@ -38,7 +38,7 @@ def printMenu(title, contents):
     print("원하는 번호를 선택하세요 : ", end="")
 
 
-def getMenuNumber():
+def getValidNumber():
     menuNumber = input()
     while menuNumber not in ["1", "2", "3", "4", "5"]:
         print("\t틀렸습니다")
@@ -57,7 +57,7 @@ if "__name__" == "__main__":
     mycal = [Plus, Minus, Multiply, Divide]
 
     printMenu(menuTitle, menuContents)
-    menuNumber = getMenuNumber()
+    menuNumber = getValidNumber()
 
     while menuNumber != [str(i) for i in range(1, len(menuContents) + 2)]:
         op1 = int(input("첫번째 피연산자를 입력하세요 : "))
@@ -70,7 +70,7 @@ if "__name__" == "__main__":
 
         printResult(op1, op2, operater[int(menuNumber) - 1], mycal[int(menuNumber) - 1])
         print(menuTitle, menuContents)
-        menuNumber = getMenuNumber()
+        menuNumber = getValidNumber()
 
     print("계산기 프로그램 끝")
 
@@ -80,11 +80,11 @@ if "__name__" == "__main__":
     menuContents = ["가위", "바위", "보"]
 
     printMenu(menuTitle, menuContents)
-    menuNumber = getMenuNumber()
+    menuNumber = getValidNumber()
 
     while menuNumber != str(len(menuContents) + 1):
         print("\t" + menuContents[int(menuNumber) - 1])
         print(menuTitle, menuContents)
-        menuNumber = getMenuNumber()
+        menuNumber = getValidNumber()
 
     print("가위바위보 프로그램 종료")
