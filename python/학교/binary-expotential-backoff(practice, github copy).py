@@ -1,21 +1,16 @@
 import random, time
-from typing import TypeVar, Callable
-
-T = TypeVar("T")
 
 
-def retry_with_backoff(fn: Callable[[], T], retries=5, backoff_in_seconds=1) -> T:
+def retry_with_backoff(fn, retries=5, backoff=1):
     x = 0
     while True:
         try:
             return fn()
         except:
-            if x == retries:
-                print("Time is up!")
+            if x == retries - 1:
                 raise
             else:
-                sleep = backoff_in_seconds * 2 ** x + random.uniform(0, 1)
-                print("  Sleep :", str(sleep) + "s")
+                sleep = backoff * 2 ** x + random.uniform(0, 1)
                 time.sleep(sleep)
                 x += 1
 
@@ -45,4 +40,4 @@ print(x, "\n")
 # should crash after 2 retries
 print("C:")
 i = 0
-x = retry_with_backoff(lambda: f())
+x = retry_with_backoff(lambda: f(), retries=2)

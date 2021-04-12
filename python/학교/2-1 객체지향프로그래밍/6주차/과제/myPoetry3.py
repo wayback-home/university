@@ -68,8 +68,14 @@ def printPoetry(menuNumber, title, name):
     while menuNumber != "5":
         if menuNumber == "1":
             os.system("cls")
-            print("\t\t", title[0], "\n")
-            print("\t\t\t\t", name, "\n")
+            print("\n" * 30)
+
+            print("\t\t", title[0])
+            time.sleep(1)
+
+            print("\n\t\t\t\t", name, "\n")
+            time.sleep(1)
+
             i = 0
             for i in range(0, len(lyrics1) - 1):
                 print("\t", lyrics1[i])
@@ -77,8 +83,14 @@ def printPoetry(menuNumber, title, name):
 
         elif menuNumber == "2":
             os.system("cls")
-            print("\t\t", title[1], "\n")
-            print("\t\t\t\t", name, "\n")
+            print("\n" * 30)
+
+            print("\t\t", title[1])
+            time.sleep(1)
+
+            print("\n\t\t\t\t", name, "\n")
+            time.sleep(1)
+
             i = 0
             for i in range(0, len(lyrics2) - 1):
                 print("\t", lyrics2[i])
@@ -86,8 +98,14 @@ def printPoetry(menuNumber, title, name):
 
         elif menuNumber == "3":
             os.system("cls")
-            print("\t\t", title[2], "\n")
-            print("\t\t\t\t", name, "\n")
+            print("\n" * 30)
+
+            print("\t\t", title[2])
+            time.sleep(1)
+
+            print("\n\t\t\t\t", name, "\n")
+            time.sleep(1)
+
             i = 0
             for i in range(0, len(lyrics3) - 1):
                 print("\t", lyrics3[i])
@@ -95,8 +113,14 @@ def printPoetry(menuNumber, title, name):
 
         elif menuNumber == "4":
             os.system("cls")
-            print("\t\t", title[3], "\n")
-            print("\t\t\t\t", name, "\n")
+            print("\n" * 30)
+
+            print("\t\t", title[3])
+            time.sleep(1)
+
+            print("\n\t\t\t\t", name, "\n")
+            time.sleep(1)
+
             i = 0
             for i in range(0, len(lyrics4) - 1):
                 print("\t", lyrics4[i])
@@ -114,6 +138,9 @@ def printPoetry(menuNumber, title, name):
     print("\n\n\n")
 
 
+##
+##
+##
 programtitle = "시 출력 프로그램"
 name = "김소월"
 content = """진 달 래  꽃
