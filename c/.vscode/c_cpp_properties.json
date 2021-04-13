@@ -26,7 +26,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/mnt/c/WinAVR-20100110/avr/**"
+                "/mnt/c/WinAVR-20100110/avr/**",
+                "/mnt/c/WinAVR-20100110/avr/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
