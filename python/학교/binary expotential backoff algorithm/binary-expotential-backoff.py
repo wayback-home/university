@@ -11,8 +11,9 @@ def backoff(fuction, attempts):
             if times == attempts - 1:
                 raise
             else:
-                prevent_ms = random.uniform(0, 1)
-                backoff = 2 ** times + prevent_ms
+                cw = 2 ** times - 1
+                delay_ms = random.uniform(0, cw) / 1000
+                backoff = 52.6 * delay_ms
                 time.sleep(backoff)
                 print(f"delay time = {backoff}초\n")
                 times += 1
@@ -25,7 +26,8 @@ def printBEB() -> int:
     time.sleep(1)
     print(f"attemps = {attempsNumber}")
     if attempsNumber < attemps:
-        raise Exception("시간초과")
+        raise Exception()
+
     return attempsNumber
 
 
