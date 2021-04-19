@@ -46,9 +46,8 @@ int main(void)
     DDRA = 0xFF;
     EIMSK = 0xF0;
     EICRB = 0x0F;
-    SREG = 0b10000000;
+    SREG = 0x80;
 
-    //1, 2번 (led 켜기, led 끄기:4, 5번 포트)
     while (1)
     {
         ;
