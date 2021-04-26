@@ -17,11 +17,7 @@ ISR(INT5_vect)
 ISR(INT6_vect)
 {
 
-    if (PORTA == 0xAA)
-    {
-        PORTA = ~PORTA;
-    }
-    else if (PORTA == 0x55)
+    if (PORTA == 0xAA or PORTA == 0x55)
     {
         PORTA = ~PORTA;
     }
@@ -32,12 +28,12 @@ ISR(INT6_vect)
 }
 ISR(INT7_vect)
 {
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < 3; i++)
     {
         PORTA = 0xFF;
-        _delay_ms(30);
+        _delay_ms(50);
         PORTA = 0x00;
-        _delay_ms(30);
+        _delay_ms(50);
     }
 }
 
@@ -45,7 +41,7 @@ int main(void)
 {
     DDRA = 0xFF;
     EIMSK = 0xF0;
-    EICRB = 0x0F;
+    EICRB = 0xAF;
     SREG = 0x80;
 
     while (1)
