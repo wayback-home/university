@@ -15,4 +15,4 @@ while not myMenu.isExit():
     # print("\t\t\t" + menuContents[menuNumber - 2])
     print("\t\t\t" + myMenu.getContent())
     myMenu.print()
-    menuNumber = myMenu.getMenuNumber()
+    myMenu.getMenuNumber()
