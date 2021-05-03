@@ -12,7 +12,8 @@ myMenu = Menu(title, menuContents)
 myMenu.print()
 menuNumber = myMenu.getMenuNumber()
 
-
+# 시를 외부 파일에서 불러들어와 출력하게 만들었기 때문에
+# poet1~4까지의 파일이 꼭 같은 폴더에 있어야 출력됨(import시 경로지정 안되어 있음)
 while menuNumber != 5:
     if menuNumber == 1:
         Poet = Poetry(poet1.title, poet1.poet, poet1.contents)
@@ -33,3 +34,4 @@ while menuNumber != 5:
 
 if menuNumber == 5:
     print("\t\t프로그램을 종료합니다.")
+a = 0
