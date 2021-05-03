@@ -1,1 +1,1 @@
-# my university studying
+# my university cs study
