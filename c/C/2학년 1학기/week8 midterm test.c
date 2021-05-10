@@ -17,9 +17,9 @@ ISR(INT5_vect)
 ISR(INT6_vect)
 {
 
-    if (PORTA == 0xAA or PORTA == 0x55)
+    if (PORTA == 0xAA)
     {
-        PORTA = ~PORTA;
+        PORTA = 0x00;
     }
     else
     {
@@ -41,7 +41,7 @@ int main(void)
 {
     DDRA = 0xFF;
     EIMSK = 0xF0;
-    EICRB = 0xAF;
+    EICRB = 0xFA;
     SREG = 0x80;
 
     while (1)
