@@ -16,7 +16,7 @@ int main(void)
     unsigned int addr_EEPROM = 0x0002;
     unsigned char data_EEPROM, interruptNo = 0;
     char msg[20];
-    DDRB = 0xff;
+    DDRB = 0xFF;
     DDRE = 0x00;
     PORTE = 0xFF;
 
