@@ -9,9 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal",
-            "cwd": "${fileDirname}",
-            "env": {"PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}"}
+            "console": "integratedTerminal"
         }
     ]
 }
