@@ -7,20 +7,25 @@
 
 unsigned char led = 0xFE, ledB = 0x01;
 
-ISR(TIMER0_OVF_vect)
+// ISR(TIMER0_OVF_vect)
+// {
+//     led = led << 1;
+//     led = led | 0x01;
+//     if (led == 0xFF)
+//         led = 0xFE;
+//     PORTC = led;
+// }
+
+ISR(TIMER0_COMP_vect)
 {
+    // OCR0 = OCR0 - 1;
+    // if (OCR0 < 0x1F)
+    //     OCR0 = 0xFF;
     led = led << 1;
     led = led | 0x01;
     if (led == 0xFF)
         led = 0xFE;
     PORTC = led;
-}
-
-ISR(TIMER0_COMP_vect)
-{
-    OCR0 = OCR0 - 1;
-    if (OCR0 < 0x1F)
-        OCR0 = 0xFF;
 }
 
 int main()
