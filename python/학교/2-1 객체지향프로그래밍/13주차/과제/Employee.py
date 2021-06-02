@@ -39,36 +39,51 @@ class Manager(Employee):
 
 
 class Company:
-    def __init__(self, name):
-        self._name = name
-        self._employees = list()
-        self._getEmployees()
+    employees = list()
+
+    def __init__(self):
+        self._getEmployee(
+            "/mnt/c/Users/dudtj/study/ubuntu/python/학교/2-1 객체지향프로그래밍/13주차/과제/employeeList.txt"
+        )
 
     @property
     def Name(self):
-        return self._name
+        return self.name
 
     @property
     def Employees(self):
-        return self._employees
+        return self.employees
 
     @Employees.setter
     def Employees(self, value):
-        self._employees.append(value)
+        self.employees.append(value)
 
-    def _getEmployees(self):
-        with open(
-            "/mnt/c/Users/dudtj/study/ubuntu/python/학교/2-1 객체지향프로그래밍/13주차/과제/employeeList.txt",
-            "r",
-            encoding="UTF-8",
-        ) as getFile:
-            employeeList = getFile.read().split("\n")
+    def _getEmployee(self, path):
+        self._path = path
+        name = ""
+        idNumber = ""
+        position = ""
 
-        for fileList in employeeList:
-            if fileList.endswith("장"):
-                teamManager = Manager(fileList)
-                self.Employees = teamManager
-            else:
-                team = fileList
-                self.Employees = team
-                teamManager.subordinate = team
+        with open(path, "r", encoding="UTF-8") as myFile:
+            employeeList = myFile.read().split("\n")
+
+            for person in employeeList:
+                employee = person.split(",")
+
+                idNumber = employee[0]
+                name = employee[1]
+                team = employee[2][: len(employee[2]) - 1]
+                position = employee[2]
+
+                if position.endswith("장"):
+                    employee = Manager(idNumber, name, team)
+                else:
+                    employee = Employee(idNumber, name, team)
+
+                Company.employees.append(employee)
+
+                for employee in Company.employees:
+                    if type(employee) is Manager:
+                        for sub in Company.employees:
+                            if employee._department == sub._department:
+                                employee.SubOrdinate = sub

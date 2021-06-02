@@ -9,5 +9,5 @@ def letsWork(company):
         print(person)
 
 
-myCompany = Company("삼성")
+myCompany = Company()
 letsWork(myCompany)
