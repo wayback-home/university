@@ -3,18 +3,10 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 #include <util/delay.h>
-/* Timer/Counter0 Overflow */
-/*
-#define TIMER0_OVF_vect			_VECTOR(16)
-#define SIG_OVERFLOW0			_VECTOR(16)
-*/
-/* Timer/Counter0 Compare Match  
-#define TIMER0_COMP_vect		_VECTOR(15)
-#define SIG_OUTPUT_COMPARE0		_VECTOR(15)
-*/
+
 void interrupt_call(int);
 int num = 0, count = 0;
-char seg_data[10] = {0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f};
+char seg_data[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};
 
 ISR(TIMER0_COMP_vect)
 {
@@ -31,7 +23,7 @@ ISR(TIMER0_COMP_vect)
 
 int main()
 {
-    DDRA = 0xff;  // 방향출력설정 PORTB
+    DDRA = 0xFF;  // 방향출력설정 PORTB
     DDRF = 0x10;  // 방향출력설정 PORTF
     TIMSK = 0x02; // OCIE0 = 2,0x02
     TCCR0 = 0x1E; // ctc mode, CS02 CS01 CS00 = 256분주 00001 110

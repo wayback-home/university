@@ -3,11 +3,6 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 #include <util/delay.h>
-/* Timer/Counter0 Overflow */
-/*
-#define TIMER0_OVF_vect			_VECTOR(16)
-#define SIG_OVERFLOW0			_VECTOR(16)
-*/
 
 unsigned char seg_data[10] = {0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f};
 unsigned char led = 0xfe;
@@ -58,7 +53,7 @@ int main()
     TCNT0 = 0;
     SREG = 0x80;
     PORTC = led;
-    // PORTB = seg_data[5];	    // 초기값  5      // 5.1.2.3.4.5.6.7.0.1.2.3...........
+
     while (1)
         ;
 
