@@ -21,7 +21,7 @@ SIGNAL(SIG_OUTPUT_COMPARE0)
 
 int main(void)
 {
-    TCCR0 = 0x1D; // 0000 1 101   분주비 128  1/18MHz  *128  = 8uS  TCNTn 1증가
+    TCCR0 = 0x1D; // 00001101 분주비128  16Mhz/128=125000hz 1/125000=8*10^(-6) 6uS  TCNTn 1증가
     TIMSK = 0x02;
     OCR0 = 124; // 0.001초마다 compare match   0.001/8uS =125    -> TCNTn 값이 0~124까지 도달하면  0.001초
     SREG = 0x80;
