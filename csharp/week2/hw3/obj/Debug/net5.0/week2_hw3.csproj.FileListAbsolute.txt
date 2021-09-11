@@ -1,0 +1,16 @@
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.csproj.AssemblyReference.cache
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.AssemblyInfoInputs.cache
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.AssemblyInfo.cs
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.csproj.CoreCompileInputs.cache
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/week2_hw3
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/week2_hw3.deps.json
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/week2_hw3.runtimeconfig.json
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/week2_hw3.runtimeconfig.dev.json
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/week2_hw3.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/ref/week2_hw3.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/bin/Debug/net5.0/week2_hw3.pdb
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/ref/week2_hw3.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.pdb
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week2/hw3/obj/Debug/net5.0/week2_hw3.genruntimeconfig.cache
