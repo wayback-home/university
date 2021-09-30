@@ -4,12 +4,12 @@ public class Account {
     int cusNum;
     int money;
 
-    public int Account() {
+    public Account() {
         cusNum = 99;
         money = 0;
     }
 
-    public int Account(int person, int b) {
+    public Account(int person, int b) {
         cusNum = person;
         money = b;
     }
@@ -31,16 +31,10 @@ public class Account {
     }
 
     public static void main(String[] args) {
-        Account bank = new Account(99, 0);
+        Account bank = new Account(88, 1000);
         System.out.println(bank.chkuser());
 
-        bank.Account(88, 1000);
         System.out.println(bank.chk(88));
-        System.out.println(bank.chkuser());
-
-        bank.Account(88, 500);
-        System.out.println(bank.chk(88));
-        System.out.println(bank.chkuser());
     }
 
 }
