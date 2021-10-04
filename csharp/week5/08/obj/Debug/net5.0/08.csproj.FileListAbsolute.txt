@@ -1,0 +1,16 @@
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.csproj.AssemblyReference.cache
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.AssemblyInfoInputs.cache
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.AssemblyInfo.cs
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.csproj.CoreCompileInputs.cache
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/08
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/08.deps.json
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/08.runtimeconfig.json
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/08.runtimeconfig.dev.json
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/08.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/ref/08.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/bin/Debug/net5.0/08.pdb
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/ref/08.dll
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.pdb
+/mnt/c/Users/dudtj/study/ubuntu/csharp/week5/08/obj/Debug/net5.0/08.genruntimeconfig.cache
