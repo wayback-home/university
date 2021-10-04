@@ -1,0 +1,79 @@
+<html>
+    <body>
+        <form id="payment" action="ok.html">
+            <fieldset>
+                <legend>신상정보</legend>
+                <ol>
+                    <li>
+                        <label for="name"
+                            >이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+                            름&nbsp;:
+                        </label>
+                        <input placeholder="이름" required autofocus />
+                    </li>
+                    <li>
+                        <label for="email"
+                            >이&nbsp;&nbsp; 메&nbsp;&nbsp; 일</label
+                        >
+                        :
+                        <input required />
+                    </li>
+                    <li>
+                        <label for="phone">휴대폰 번호 </label>
+                        :
+                        <input type="tel" placeholder="01012345678" required />
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>기타정보</legend>
+                <ol>
+                    <li>
+                        <label for="job">직업</label>
+                        <select name="job">
+                            <option value="programmer">프로그래머</option>
+                            <option value="student">학생</option>
+                            <option value="teacher">교사</option>
+                            <option value="none">무직</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="email">성별</label>
+                        <input type="radio" name="gender" value="male" />
+                        남자&nbsp;&nbsp;
+                        <input type="radio" name="gender" value="female" />
+                        여자
+                    </li>
+
+                    <li>
+                        <label for="phone">취미</label>
+                        <input type="checkbox" name="hobby" value="reading" />
+                        독서&nbsp;&nbsp;
+                        <input type="checkbox" name="hobby" value="gaming" />
+                        게임&nbsp;&nbsp;
+                        <input type="checkbox" name="hobby" value="movie" />
+                        영화감상&nbsp;&nbsp;
+                        <input type="checkbox" name="hobby" value="music" />
+                        음악감상&nbsp;&nbsp;
+                        <input type="checkbox" name="hobby" value="football" />
+                        축구&nbsp;&nbsp;
+                    </li>
+                </ol>
+            </fieldset>
+            <p>자기소개글 </p>
+            <p>
+            <textarea                                                              >자기를 소개하는 글을 쓰세요
+            </textarea>
+            </p>
+        <p>
+            <form action="ok.html" method="GET">
+                <input type="submit" value="등록하기"/>
+                <input type="reset" value="취소하기" />
+            </form>
+            
+
+        </p>
+
+</body>
+</html>
