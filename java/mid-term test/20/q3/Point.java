@@ -27,13 +27,11 @@ public class Point {
     }
 
     public Point get() {
-        Point p = new Point(this.x, this.y);
-        return p;
+        return new Point(x, y);
     }
 
     public static Point makePoint(int x, int y) {
-        Point rt = new Point(x, y);
-        return rt;
+        return new Point(x, y);
     }
 
 }
