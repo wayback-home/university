@@ -6,7 +6,7 @@ public class MinusAccount extends CustomerAccount {
         limitMinus = -limit;
     }
 
-    public int availableBalance() {
+    public double availableBalance() {
         return -(limitMinus - balance);
     }
 

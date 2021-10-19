@@ -1,5 +1,5 @@
 public class Account {
-    int balance;
+    double balance;
 
     public Account() {
         this(0);
@@ -9,7 +9,7 @@ public class Account {
         balance = amount;
     }
 
-    public int get() {
+    public double get() {
         return balance;
     }
 
