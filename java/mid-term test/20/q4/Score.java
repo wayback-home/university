@@ -13,11 +13,11 @@ public class Score {
         point = p;
     }
 
-    public boolean gt(Score p) {
-        return this.point > p.get();
+    public boolean gt(Score name) {
+        return point > name.get();
     }
 
-    public boolean eq(Score p) {
-        return this.point == p.get();
+    public boolean eq(Score name) {
+        return point == name.get();
     }
 }
