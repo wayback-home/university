@@ -1,0 +1,16 @@
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\p3.exe
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\p3.deps.json
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\p3.runtimeconfig.json
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\p3.runtimeconfig.dev.json
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\p3.dll
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\ref\p3.dll
+c:\Users\KNUT\Desktop\cs\p3\bin\Debug\net5.0\p3.pdb
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.csproj.AssemblyReference.cache
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.AssemblyInfoInputs.cache
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.AssemblyInfo.cs
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.csproj.CoreCompileInputs.cache
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.dll
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\ref\p3.dll
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.pdb
+c:\Users\KNUT\Desktop\cs\p3\obj\Debug\net5.0\p3.genruntimeconfig.cache
