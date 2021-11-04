@@ -3,21 +3,44 @@
     <head>
         <title>CH06 Q13</title>
         <style>
+            #title {
+                font-weight: 900;
+                font-size: 21px;
+            }
+            #main {
+                font-weight: 700;
+                font-size: 17px;
+            }
             div {
                 width: 200px;
-                height: 330px;
-                box-shadow: 2px 2px 25px black;
-                border-radius: 5px;
-                padding: 25px;
+                height: 350px;
+                box-shadow: 1px 1px 10px black;
+                border-radius: 3px;
+                padding: 20px;
                 text-align: center;
+            }
+            div > #box {
+                width: 100px;
+                height: 100px;
+                padding: 0px;
+                box-shadow: none;
+                background-color: #a79674;
+                border-radius: 0%;
+                position: relative;
+                left: 50px;
             }
         </style>
     </head>
     <body>
         <div>
-            <h3>Card</h3>
-            <img src="http://placehold.it/100x100">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <p id="title">Card</p>
+            <div id="box">
+                <img src="" alt="" />
+            </div>
+            <p id="main">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, odio aliquid accusantium ab, libero maxime.
+            </p>
         </div>
     </body>
 </html>
