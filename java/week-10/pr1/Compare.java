@@ -1,4 +1,7 @@
 public interface Compare {
-    public void swap();
+
+    public boolean isGreat(int n, int m);
+
+    public void swap(int n, int m);
 
 }
