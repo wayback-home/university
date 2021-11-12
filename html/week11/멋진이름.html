@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var name, age;
+            var input;
+
+            input = prompt("이름을 입력하세요");
+            name = input;
+
+            input = prompt("나이를 입력하세요", "만 나이로 입력");
+            age = parseInt(input);
+
+            document.write("당신의 이름은 " + name + "이군요<br\>");
+            document.write(
+                name + "님의 나이는 한국 나이로 " + (age + 1) + " 이군요"
+            );
+        </script>
+    </body>
+</html>
