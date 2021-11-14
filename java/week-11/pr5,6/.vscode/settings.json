@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "hw.jar"
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
+}

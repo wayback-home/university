@@ -1,10 +1,12 @@
-package util;
+package com.knut.utils;
 
-public class Algorithm {
+public class Utils {
+
     public int findMax(Compare obj, int b, int e) {
         int max = b;
-        for (int i = b; i <= e; i++) {
-            if (obj.isGreater(i, max)) {
+
+        for (int i = b; i < e; i++) {
+            if (obj.isGreat(i, max)) {
                 max = i;
             }
         }
