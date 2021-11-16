@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      var n, m;
+      var get;
+      n = prompt("첫 번째 숫자를 입력하세요", "정수 입력");
+      m = prompt("두 번째 숫자를 입력하세요", "정수 입력");
+      get = prompt("연산자를 입력하세요", "+, -, /, *");
+
+      switch (get) {
+        case "+":
+          document.write(n + m);
+          break;
+
+        case "-":
+          document.write(n - m);
+          break;
+        case "/":
+          document.write(n / m);
+          break;
+        case "*":
+          document.write(n * m);
+          break;
+      }
+    </script>
+  </body>
+</html>

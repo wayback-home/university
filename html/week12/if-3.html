@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      var n, m, j;
+      n = prompt("수를 입력하세요", "정수");
+      m = prompt("수를 입력하세요", "정수");
+      j = prompt("수를 입력하세요", "정수");
+
+      if (n > m) {
+        if (n > j) {
+          document.write(n + "이 가장 큽니다.");
+        } else if (j > n) {
+          document.write(j + "이 가장 큽니다.");
+        }
+      } else if (n < m) {
+        if (m > j) {
+          document.write(m + "이 가장 큽니다.");
+        } else if (j > m) {
+          document.write(j + "이 가장 큽니다.");
+        }
+      }
+    </script>
+  </body>
+</html>
