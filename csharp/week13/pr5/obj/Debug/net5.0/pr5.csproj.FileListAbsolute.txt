@@ -1,0 +1,16 @@
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.csproj.AssemblyReference.cache
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.AssemblyInfoInputs.cache
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.AssemblyInfo.cs
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.csproj.CoreCompileInputs.cache
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\pr5.exe
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\pr5.deps.json
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\pr5.runtimeconfig.json
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\pr5.runtimeconfig.dev.json
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\pr5.dll
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\ref\pr5.dll
+C:\Users\KNUT\cs\pr5\bin\Debug\net5.0\pr5.pdb
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.dll
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\ref\pr5.dll
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.pdb
+C:\Users\KNUT\cs\pr5\obj\Debug\net5.0\pr5.genruntimeconfig.cache
