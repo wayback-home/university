@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h3>문자열 배열 다루기</h3>
+    <hr />
+    <script>
+      var names = new Array("wonsun", "jaemoonlee", "kitae", "gracehwang");
+      document.write("이름 : ");
+      for (let i = 0; i < 4; i++) {
+        document.write(names[i], "&nbsp");
+      }
+
+      var longest = names[0];
+      for (let i = 0; i < 4; i++) {
+        if (longest.length < names[i].length) {
+          longest = names[i];
+        }
+      }
+
+      document.write("<br\>가장 긴 이름 : ");
+      document.write(longest);
+
+      names.sort();
+      document.write("<br\>가장 먼저 나오는 이름 : ");
+      document.write(names[0]);
+      document.write("<br\>이름 오름차순 : ");
+
+      for (let i = 0; i < 4; i++) {
+        document.write(names[i], "&nbsp");
+      }
+    </script>
+  </body>
+</html>

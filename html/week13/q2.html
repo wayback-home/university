@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>정수 5개 입력받아 역순으로 출력</title>
+  </head>
+  <body>
+    <h3>정수 5개 입력받아 역순으로 출력</h3>
+    <hr />
+    <script>
+      var n = [];
+
+      for (var i = 0; i < 5; i++) {
+        n[i] = parseInt(prompt(i + 1 + "번째 정수를 입력하세요"));
+      }
+
+      document.write("입력된 수의 배열<br\>");
+      for (let i = 0; i < 5; i++) {
+        document.write(n[i]);
+        document.write("&nbsp");
+      }
+
+      n.sort(function (a, b) {
+        a - b;
+      });
+
+      document.write("<hr>");
+      document.write("역순으로 재정렬된 배열");
+      document.write("<br\>");
+
+      for (let i = 4; i >= 0; i--) {
+        document.write(n[i]);
+        document.write("&nbsp");
+      }
+    </script>
+  </body>
+</html>

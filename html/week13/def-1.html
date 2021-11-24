@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function func(a, b, get) {
+        switch (get) {
+          case "+":
+            return a + b;
+            break;
+          case "-":
+            return a - b;
+            break;
+
+          case "*":
+            return a * b;
+            break;
+          case "/":
+            return a / b;
+            break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      var n, m, get, set;
+      n = parseInt(prompt("첫번째 값을 입력하세요"));
+      m = parseInt(prompt("두번째 값을 입력하세요"));
+      get = prompt("연산기호를 입력하세요", "+, -, *, /");
+      set = func(n, m, get);
+
+      document.write(n + get + m + " = " + set);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>방문 시간에 따라 변하는 배경색</title>
+    <script>
+      function funcDay(n) {
+        switch (n) {
+          case 0:
+            return "일";
+            break;
+
+          case 1:
+            return "월";
+            break;
+          case 2:
+            return "화";
+            break;
+          case 3:
+            return "수";
+            break;
+          case 4:
+            return "목";
+            break;
+          case 5:
+            return "금";
+            break;
+          case 6:
+            return "토";
+            break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h3>일요일은 pink, 다른 요일은 gold</h3>
+    <hr />
+    <script>
+      var current = new Date(); // 현재 시간을 가진 Date 객체 생성
+      if (current.getDay() == 0) document.body.style.backgroundColor = "pink";
+      else document.body.style.backgroundColor = "gold";
+
+      document.write("현재 시간 : ");
+      document.write(current.getHours(), "시,");
+      document.write(current.getMinutes(), "분,");
+      document.write(current.getSeconds(), "초<br>");
+
+      var n = current.getDay();
+      document.write(funcDay(n), "요일");
+    </script>
+  </body>
+</html>
