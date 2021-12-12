@@ -30,15 +30,16 @@ public class ScoreArray implements Compare {
     public static void main(String[] args) {
         ScoreArray array = new ScoreArray();
         array.setting();
-        array.returnData(); 
+        array.returnData();
 
         Utils algorythm = new Utils();
+        algorythm.findMax(array, 0, 10);
 
     }
 
     @Override
     public boolean isGreat(int n, int m) {
-        return data[n].get() > data[m].get();
+        return data[n] > data[m];
     }
 
     @Override
