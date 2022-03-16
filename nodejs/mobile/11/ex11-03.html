@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>선으로 삼각형 그리기</title></head>
-<body>
-<h3>선으로 삼각형 그리기</h3>
-<hr>
-<canvas id="myCanvas" style="background-color:aliceblue"
-	 width="200" height="150"></canvas>
-<script>
-	var canvas = document.getElementById("myCanvas");
-	var context = canvas.getContext("2d");
-	
-	context.beginPath(); 
-	context.moveTo(120, 20); 
-	context.lineTo(20, 50); 
-	context.lineTo(150, 120); 
-	context.lineTo(120, 20); 
-	context.strokeStyle="magenta"; 
-	context.stroke(); 
-</script>	 
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>선으로 삼각형 그리기</title>
+    </head>
+    <body>
+        <h3>선으로 삼각형 그리기</h3>
+        <hr />
+        <canvas
+            id="myCanvas"
+            style="background-color: aliceblue"
+            width="400"
+            height="500"
+        ></canvas>
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+
+            context.beginPath();
+            context.moveTo(120, 20);
+            context.lineTo(20, 50);
+            context.lineTo(150, 120);
+            context.lineTo(120, 20);
+            context.strokeStyle = "magenta";
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(120, 220);
+            context.lineTo(170, 220);
+            context.lineTo(170, 270);
+            context.lineTo(220, 270);
+            context.lineTo(220, 320);
+            context.lineTo(170, 320);
+            context.lineTo(170, 370);
+            context.lineTo(120, 370);
+            context.lineTo(120, 320);
+            context.lineTo(70, 320);
+            context.lineTo(70, 270);
+            context.lineTo(120, 270);
+            context.lineTo(120, 220);
+            context.strokeStyle = "red";
+            context.stroke();
+        </script>
+    </body>
 </html>

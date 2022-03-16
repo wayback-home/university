@@ -1,4 +1,4 @@
 *.exe
 *.zip
 *.class
-
+*/.DS_Store
