@@ -1,10 +1,10 @@
 const url = require('url');
 
 const { URL } = url;
-const myURL = new URL('http://www.gilbut.co.kr/book/bookList.aspx?sercate1=001001000#anchor');
+const myURL = new URL('https://www.acmicpc.net/');
 console.log('new URL():', myURL);
 console.log('url.format():', url.format(myURL));
 console.log('------------------------------');
-const parsedUrl = url.parse('http://www.gilbut.co.kr/book/bookList.aspx?sercate1=001001000#anchor');
+const parsedUrl = url.parse('https://www.acmicpc.net/');
 console.log('url.parse():', parsedUrl);
 console.log('url.format():', url.format(parsedUrl));
