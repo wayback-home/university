@@ -1,7 +1,12 @@
 *.exe
 *.zip
 *.class
+<<<<<<< Updated upstream
 .DS_Store
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+=======
+*/.DS_Store
+nodejs/mobile/.DS_Store
+>>>>>>> Stashed changes
