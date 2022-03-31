@@ -1,12 +1,15 @@
 *.exe
 *.zip
 *.class
-<<<<<<< Updated upstream
 .DS_Store
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
-=======
-*/.DS_Store
 nodejs/mobile/.DS_Store
->>>>>>> Stashed changes
+python/.DS_Store
+.DS_Store
+nodejs/mobile/.DS_Store
+python/.DS_Store
+python/학교/.DS_Store
+python/학교/3-1 기계학습/.DS_Store
+python/학교/3-1 기계학습/week3/.DS_Store
