@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('./readme.txt', (err, data) => {
+fs.readFile('./redme.txt', (err, data) => {
   if (err) {
     throw err;
   }
