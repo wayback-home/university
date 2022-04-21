@@ -30,6 +30,7 @@ http.createServer(async (req, res) => {
   } else if (cookies.name) {
     res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end(`${cookies.name}님 안녕하세요`);
+    
   } else {
     try {
       const data = await fs.readFile('./cookie2.html');
