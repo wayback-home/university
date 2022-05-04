@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head> </head>
+    <body onload="init()">
+        <canvas
+            id="Canvas"
+            style="background-color: #eeeeee"
+            width="500"
+            height="500"
+        >
+        </canvas>
+        <br />
+
+        <form>
+            <select id="color" onchange="showValue(this)">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+            </select>
+            <select id="line" onchange="showValue(this)">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <button id="delete" name="delete">지우기</button>
+        </form>
+        <script>
+            var canvas, context;
+            function init() {
+                canvas = document.getElementById("Canvas");
+                context = canvas.getContext("2d");
+
+                context.lineWidth = 1;
+                context.strokeStyle = "black";
+
+                canvas.addEventListener(
+                    "mousemove",
+                    function (e) {
+                        move(e);
+                    },
+                    false
+                );
+                canvas.addEventListener(
+                    "mousedown",
+                    function (e) {
+                        down(e);
+                    },
+                    false
+                );
+                canvas.addEventListener(
+                    "mouseup",
+                    function (e) {
+                        up(e);
+                    },
+                    false
+                );
+                canvas.addEventListener(
+                    "mouseout",
+                    function (e) {
+                        out(e);
+                    },
+                    false
+                );
+            }
+
+            var startX = 0,
+                startY = 0; // 마우스의 마지막 포인터 좌표
+            var drawing = false;
+            function draw(curX, curY) {
+                var color = document.getElementById("color");
+                colorValue = color.value;
+
+                var line = document.getElementById("line");
+                lineValue = line.value;
+
+                if (colorValue == "red") {
+                    context.strokeStyle = "red";
+                } else if (colorValue == "black") {
+                    context.strokeStyle = "black";
+                } else if (colorValue == "blue") {
+                    context.strokeStyle = "blue";
+                }
+
+                context.lineWidth = lineValue;
+
+                context.beginPath();
+                context.moveTo(startX, startY);
+                context.lineTo(curX, curY);
+                context.stroke();
+            }
+            function down(e) {
+                startX = e.offsetX;
+                startY = e.offsetY;
+                drawing = true;
+            }
+            function up(e) {
+                drawing = false;
+            }
+            function move(e) {
+                if (!drawing) return;
+                var curX = e.offsetX,
+                    curY = e.offsetY;
+                draw(curX, curY);
+                startX = curX;
+                startY = curY;
+            }
+            function out(e) {
+                drawing = false;
+            }
+
+            var deleteButton = document.getElementById("delete");
+            if (deleteButton) {
+                context.clearRect(500, 500, width, height);
+            }
+        </script>
+    </body>
+</html>
