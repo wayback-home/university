@@ -53,7 +53,7 @@ year = [
 print(sumPop)
 # totalPop = [0 for _ in range(0, len(year), 1)]
 totalPop = list()
-for i in range(0, 90, 3):
+for i in range(1, 90, 3):
     totalPop.insert(int(i / 3), sumPop[i])
 
 print(totalPop)
