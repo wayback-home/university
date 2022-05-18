@@ -35,5 +35,4 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 uploads
-*.json
-**.json
+config.json
