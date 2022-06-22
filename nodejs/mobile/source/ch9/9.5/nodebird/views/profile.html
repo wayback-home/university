@@ -1,22 +1,43 @@
-{% extends 'layout.html' %}
-
-{% block content %}
-  <div class="timeline">
+{% extends 'layout.html' %} {% block content %}
+<div class="timeline">
     <div class="followings half">
-      <h2>팔로잉 목록</h2>
-      {% if user.Followings %}
-        {% for following in user.Followings %}
-          <div>{{following.nick}}</div>
-        {% endfor %}
-      {% endif %}
+        <h2>팔로잉 목록</h2>
+        {% if user.Followings %} {% for following in user.Followings %}
+        <div>
+            <span class="following-name">{{following.nick}}</span>
+            <span>&nbsp;&nbsp;</span>
+            <span>
+                <button type="button" class="twit-unfollow" style="color: red">
+                    팔로우 해제
+                </button>
+            </span>
+        </div>
+        {% endfor %} {% endif %}
     </div>
     <div class="followers half">
-      <h2>팔로워 목록</h2>
-      {% if user.Followers %}
-        {% for follower in user.Followers %}
-          <div>{{follower.nick}}</div>
-        {% endfor %}
-      {% endif %}
+        <h2>팔로워 목록</h2>
+        {% if user.Followers %} {% for follower in user.Followers %}
+        <div>{{follower.nick}}</div>
+
+        {% endfor %} {% endif %}
     </div>
-  </div>
+</div>
+<!-- TODO : 언팔로우 구현 -->
+<script>
+    document.querySelectorAll(".twit-unfollow").forEach(function (tag) {
+        tag.addEventListener("click", function () {
+            const userId = document.querySelector(".following-name");
+            if (confirm("팔로잉을 해제하시겠습니까?")) {
+                axios
+                    .post(`/user/${userId}/unfollow`)
+                    .then(() => {
+                        location.reload();
+                    })
+                    .catch((err) => {
+                        console.error(err);
+                    });
+            }
+        });
+    });
+</script>
 {% endblock %}

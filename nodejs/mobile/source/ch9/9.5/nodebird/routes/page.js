@@ -61,4 +61,13 @@ router.get('/hashtag', async (req, res, next) => {
   }
 });
 
+router.post('/:id/delete-twit', async (req, res, next) => {
+  try{
+      //TODO : 게시글 삭제 구현
+  }catch(error){
+    console.error(error);
+    return next(error);
+  }
+})
+
 module.exports = router;
