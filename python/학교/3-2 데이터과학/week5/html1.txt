@@ -1,0 +1,5050 @@
+<html class="js canvas canvastext no-touch geolocation postmessage indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderradius boxshadow textshadow opacity cssanimations cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg" lang="ko-KR" style="">
+ <!--<![endif]-->
+ <head>
+  <script async="" src="//www.google-analytics.com/analytics.js">
+  </script>
+  <script async="" src="https://www.google-analytics.com/plugins/ua/linkid.js" type="text/javascript">
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"/>
+  <title>
+   STORE | COFFEE BEAN KOREA
+  </title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" name="viewport"/>
+  <link href="/images/favicon-16x16.png" rel="shortcut icon" type="image/x-icon"/>
+  <link href="/css/pages/import.css?v=202205091532" rel="stylesheet"/>
+  <script async="" src="//www.google-analytics.com/analytics.js">
+  </script>
+  <script src="/js/common/libs/modernizr.custom.js">
+  </script>
+  <script src="/js/common/libs/greensock/TweenMax.min.js">
+  </script>
+  <script src="/js/common/libs/jquery-1.9.1.min.js">
+  </script>
+  <script src="/js/common/libs/slick.min.js">
+  </script>
+  <script src="/js/common/styleship/matizResizeMap.1.0.0.min.js">
+  </script>
+  <script src="/js/common/styleship/mighty.base.1.5.8.min.js">
+  </script>
+  <script src="/js/common/styleship/mighty.slide.4.2.2.min.js">
+  </script>
+  <script src="/js/common/styleship/matizCoverLayer.3.1.0.min.js">
+  </script>
+  <script src="/js/common/libs/jquery-barcode.js">
+  </script>
+  <script src="../js/pages/barcode.js">
+  </script>
+  <script src="/js/common/default.js?v=20170406">
+  </script>
+  <script>
+   var suzzestGetArr = new Array();
+    	var suzzestSetArr = new Array();
+        function suzzestGet(v1,v2,v3,v4,v5,v6){
+			suzzestGetArr.push({a:v1,b:v2,c:v3,d:v4,e:v5,f:v6});
+        }
+        function suzzestSet(v1,v2,v3,v4,v5,v6){
+			suzzestSetArr.push({a:v1,b:v2,c:v3,d:v4,e:v5,f:v6});
+        }
+
+		$(function() {
+		
+			$.cachedScript = function( url, options ) {
+					options = $.extend( options || {}, {
+					dataType: "script",
+					cache: true,
+					url: url,
+					async: false
+				});
+				return $.ajax( options );
+			};
+			
+			function async_call(js, cb){
+				$.cachedScript(js).done(function() {
+					if(cb != undefined){
+						return eval(cb)();
+					}
+				})
+			}
+			
+			switch(location.protocol){
+				case 'http:' :
+					async_call('http://service.stylecomment.com/common/js/social.js');
+					async_call('http://collector.suzzest.com/js/suzzest.js');
+					break;
+				case 'https:' :
+					break;
+			}
+			
+		});
+  </script>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-15316437-100', 'auto');
+  ga('require', 'displayfeatures');
+	ga('require', 'linkid', 'linkid.js');  
+  ga('send', 'pageview');
+  </script>
+  <meta content="커피빈코리아 Coffee Bean Korea" name="title"/>
+  <meta content="The Coffee Bean &amp; Tea Leaf 커피빈코리아" name="description"/>
+  <meta content="Coffeebeankorea, 커피빈코리아, The Coffee Bean &amp; Tea Leaf" name="keywords"/>
+  <meta content="Coffeebeankorea, 커피빈코리아, The Coffee Bean &amp; Tea Leaf" name="keyword"/>
+  <meta content="http://www.coffeebeankorea.com/images/common/Coffee_Bean_Tea_Leaf_logo_new.png" name="image"/>
+  <meta content="Coffeebean" name="author"/>
+  <meta content="http://www.coffeebeankorea.com/main/main.asp" property="og:url"/>
+  <meta content="website" property="og:type"/>
+  <meta content="커피빈코리아 Coffee Bean Korea" property="og:title"/>
+  <meta content="The Coffee Bean &amp; Tea Leaf 커피빈코리아" property="og:description"/>
+  <meta content="http://www.coffeebeankorea.com/images/common/logo_340_new.png" property="og:image"/>
+  <meta content="COFFEEBEANKOREA" property="og:site_name"/>
+  <meta content="ko_KR" property="og:locale"/>
+  <script src="/js/pages/store.js?v=20220530">
+  </script>
+  <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c035d9375740fd691fb799cec4320492" type="text/javascript">
+  </script>
+  <script charset="UTF-8" src="https://t1.daumcdn.net/mapjsapi/js/main/4.4.7/kakao.js">
+  </script>
+  <script>
+   var selectLAT = '';var selectLNG = '';
+  </script>
+  <script>
+   var category = 1;
+  </script>
+  <script>
+   var sNo = '';
+  </script>
+  <script>
+   var urlScript = 'http://www.coffeebeankorea.com/store/store.asp?sNo=';
+  </script>
+  <script src="/js/pages/store_pc.js?v=202205301729">
+  </script>
+  <script>
+   $(function() {
+			function async_call(js, cb){
+				$.getScript(js, function() {
+					if(cb != undefined){
+						return eval(cb)();
+					}
+				})
+			}		
+			async_call('//service.stylecomment.com/common/js/social.js');
+		});
+  </script>
+  <style>
+   .wrap {position: absolute;left: 0;bottom: 40px;width: 288px;height: 132px;margin-left: -144px;text-align: left;overflow: hidden;font-size: 12px;/*font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;*/line-height: 1.5;}
+    .wrap * {padding: 0;margin: 0;}
+    .wrap .info {width: 286px;height: 120px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;/*overflow: hidden;*/background: #fff;}
+    .wrap .info:nth-child(1) {border: 0;box-shadow: 0px 1px 2px #888;}
+    .info .title {padding: 5px 0 0 10px;height: 30px;background: #eee;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
+    .info .close {position: absolute;top: 10px;right: 10px;color: #888;width: 17px;height: 17px;background: url('//i1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');}
+    .info .close:hover {cursor: pointer;}
+    .info .body {position: relative;overflow: hidden;}
+    .info .desc {position: relative;margin: 8px 0 0 10px;height: 75px;}
+    .desc .ellipsis {/*overflow: hidden;text-overflow: ellipsis;*/white-space: normal;}
+    .desc .jibun {font-size: 11px;color: #888;margin-top: 2px;}
+    .info .img {position: absolute;top: 6px;left: 5px;width: 73px;height: 71px;border: 1px solid #ddd;color: #888;overflow: hidden;}
+    .info:after {content: '';position: absolute;margin-left: -12px;left: 50%;bottom: 0;width: 22px;height: 12px;background: url('//i1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+    .info .link {color: #5085BB;}
+  </style>
+  <meta content="COFFEE BEAN   STORE" name="title"/>
+  <meta content="COFFEE BEAN" name="description"/>
+  <meta content="COFFEE BEAN, COFFEEBEAN, 커피빈, STORE" name="keywords"/>
+  <meta content="//www.coffeebeankorea.com/images/common/logo.png" name="image"/>
+  <meta content="//www.coffeebeankorea.com/store/store.asp" property="og:url"/>
+  <meta content="COFFEE BEAN   STORE" property="og:title"/>
+  <meta content="COFFEE BEAN" property="og:description"/>
+  <meta content="//www.coffeebeankorea.com/images/common/logo.png" property="og:image"/>
+  <meta content="website" property="og:type"/>
+  <meta content="COFFEE BEAN" property="og:site_name"/>
+  <meta content="ko_KR" property="og:locale"/>
+ </head>
+ <body>
+  <!--  start of : skipNavi -->
+  <ul id="skipNavi">
+   <li>
+    <a href="#contents">
+     본문내용 바로가기
+    </a>
+   </li>
+   <li>
+    <a href="#footer">
+     하단메뉴 바로가기
+    </a>
+   </li>
+  </ul>
+  <!-- //end of  skipNavi -->
+  <!--MOBILE GNB-->
+  <div class="gnb_m" style="left: -208px;">
+   <form action="javascript:searchRun();" autocomplete="off" method="get" name="searchForm">
+    <fieldset>
+     <legend class="hidden">
+      검색 폼
+     </legend>
+     <input class="inp_search" id="searchItem" name="searchItem" onfocus="if(this.value=='' || this.value=='검색어를 입력하세요'){this.value='';}" type="text" value="검색어를 입력하세요"/>
+     <button onclick="javascript:searchRun();void(0);">
+      SEARCH
+     </button>
+    </fieldset>
+   </form>
+   <a class="btn_login" href="/member/login.asp#loginArea">
+    로그인
+   </a>
+   <div class="select_style select_box no_over">
+    <a class="select_a" href="javascript:void(0);">
+     고객서비스
+    </a>
+    <ul>
+     <li>
+      <a href="/store/store.asp">
+       매장찾기
+      </a>
+     </li>
+     <li>
+      <a href="/customer/heavybuying.asp">
+       단체 및 기업구매
+      </a>
+     </li>
+     <li>
+      <a href="/recruit/recruit.asp">
+       채용정보
+      </a>
+     </li>
+     <li>
+      <a href="/customer/customer.asp">
+       고객서비스
+      </a>
+     </li>
+    </ul>
+   </div>
+   <ul>
+    <li class="depth1">
+     <a href="javascript:void(0);">
+      BUY ONLINE
+     </a>
+     <div class="depth2" style="left: -208px;">
+      <div class="tit_box">
+       <h2>
+        BUY ONLINE
+       </h2>
+       <a class="btn_close" href="javascript:void(0);">
+        CLOSE
+       </a>
+      </div>
+      <ul>
+       <li>
+        <a href="/product/list.asp">
+         View All
+        </a>
+       </li>
+       <li>
+        <a href="javascript:;">
+         ♥커피빈 가을 나들이 추천 MD
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=56">
+            ♥할인 행사 제품
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         분쇄형 커피
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=49">
+            드립백
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=51">
+            소풍커피
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         파우치 커피
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=52">
+            파우치 커피
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         캡슐 커피
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=47">
+            네스프레소 호환용
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=55">
+            CBTL 호환용
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         원두
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/bean_guide.asp">
+            원두 가이드
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=9">
+            라이트 로스트
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=11">
+            미디엄 로스트
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=12">
+            다크 로스트
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         티
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/tea_guide.asp">
+            티 가이드
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=19">
+            클래식티
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=21">
+            허브티
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=22">
+            프룻티
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         상품
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=40">
+            스틱커피
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=41">
+            아이스 텀블러
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=42">
+            보온 텀블러
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=43">
+            머그
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=38">
+            파우더
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=45">
+            푸드
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=32">
+            기타상품
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:;">
+         CBTL시스템
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=24">
+            CBTL 머신
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="depth1">
+     <a href="javascript:void(0);">
+      MEMBER`S CLUB
+     </a>
+     <div class="depth2" style="left: -208px;">
+      <div class="tit_box">
+       <h2>
+        MEMBER`S CLUB
+       </h2>
+       <a class="btn_close" href="javascript:void(0);">
+        CLOSE
+       </a>
+      </div>
+      <ul>
+       <li>
+        <a href="javascript:void(0);">
+         커피빈 멤버스 클럽
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/card/membersclub.asp">
+            멤버스 클럽
+           </a>
+          </li>
+          <li>
+           <a href="/card/memberscard.asp">
+            커피빈 카드
+           </a>
+          </li>
+          <li>
+           <a href="/card/e_gift.asp">
+            커피빈 e-Gift
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript:void(0);">
+         나의 커피빈
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/mypage/my_club.asp">
+            나의 콩/e쿠폰보기
+           </a>
+          </li>
+          <li>
+           <a href="/mypage/my_card_srh.asp">
+            나의 커피빈 카드
+           </a>
+          </li>
+          <li>
+           <a href="/mypage/sign_up.asp">
+            커피빈 카드 등록
+           </a>
+          </li>
+          <li>
+           <a href="/mypage/application.asp">
+            분실신고/환불신청
+           </a>
+          </li>
+          <li>
+           <a href="/mypage/e_gift1.asp">
+            e-Gift 구매
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <!-- 사용안함 2022-04-14 정의근 -->
+       <!--li>
+							<a href="javascript:void(0);">멤버스몰
+								<div>
+									<span class="first"></span>
+									<span class="last"></span>
+								</div>
+							</a>
+							<div class="depth3">
+								<ul>
+									<li><a href="/card/membersmall.asp">멤버스몰 소개</a></li>
+								</ul>
+							</div>
+						</li-->
+      </ul>
+     </div>
+    </li>
+    <!-- <li class="depth1">
+				<a href="javascript:void(0);">PROMOTION</a>
+				<div class="depth2">					
+					<div class="tit_box">
+						<h2>PROMOTION</h2>
+						<a href="javascript:void(0);" class="btn_close">CLOSE</a>
+					</div>
+					<ul>
+						<li><a href="/promotion/list.asp?category=1">Promotion</a></li>
+						<li><a href="/promotion/list.asp?category=2">Promotion Drinks</a></li>
+					</ul>
+				</div>
+			</li> -->
+    <li class="depth1">
+     <a href="javascript:void(0);">
+      MENU
+     </a>
+     <div class="depth2" style="left: -208px;">
+      <div class="tit_box">
+       <h2>
+        MENU
+       </h2>
+       <a class="btn_close" href="javascript:void(0);">
+        CLOSE
+       </a>
+      </div>
+      <ul>
+       <li>
+        <a href="#">
+         음료
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/menu/list.asp?category=32">
+            신음료
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=13">
+            에스프레소 음료
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=14">
+            브루드 커피
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=18">
+            티
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=17">
+            티 라떼
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=12">
+            아이스 블렌디드 (Coffee)
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=11">
+            아이스 블렌디드 (Non-Coffee)
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=26">
+            커피빈 주스(병음료)
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=24">
+            기타 제조 음료
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list_extra.asp">
+            엑스트라
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="#">
+         푸드
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/menu/list.asp?category=4">
+            베이커리
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=5">
+            케익
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=8">
+            홀케익
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=6">
+            샌드위치 &amp; 샐러드
+           </a>
+          </li>
+          <li>
+           <a href="/menu/list.asp?category=7">
+            기타
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="#">
+         상품
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/product/list.asp?no=41">
+            아이스 텀블러
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=42">
+            보온 텀블러
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=43">
+            머그
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=39">
+            소풍커피
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=40">
+            스틱커피
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=38">
+            파우더
+           </a>
+          </li>
+          <li>
+           <a href="/product/list.asp?no=32">
+            기타상품
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="#">
+         카드
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <!--<li><a href="/menu/messagecard.asp">메시지 카드</a></li>-->
+          <li>
+           <a href="/card/e_gift.asp">
+            e-Gift 카드
+           </a>
+          </li>
+          <li>
+           <a href="/card/memberscard.asp">
+            실물 카드
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="depth1">
+     <a href="javascript:void(0);">
+      STORE &amp; 서비스
+     </a>
+     <div class="depth2" style="left: -208px;">
+      <div class="tit_box">
+       <h2>
+        STORE
+       </h2>
+       <a class="btn_close" href="javascript:;">
+        CLOSE
+       </a>
+      </div>
+      <ul>
+       <li>
+        <a href="/catering/catering.asp">
+         케이터링 서비스
+        </a>
+       </li>
+       <li>
+        <a href="/store/store.asp">
+         매장 찾기
+        </a>
+       </li>
+       <!-- <li><a href="/store/store.asp?category=2">신규 매장</a></li> -->
+       <li>
+        <a href="/store/store.asp#newStore">
+         신규 매장
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="depth1">
+     <a href="javascript:void(0);">
+      THE COFFEE BEAN
+     </a>
+     <div class="depth2" style="left: -208px;">
+      <div class="tit_box">
+       <h2>
+        THE COFFEE BEAN
+       </h2>
+       <a class="btn_close" href="javascript:void(0);">
+        CLOSE
+       </a>
+      </div>
+      <ul>
+       <li>
+        <a href="javascript: void(0);">
+         커피빈 코리아
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/about/coffeebean.asp">
+            Simply the Best
+           </a>
+          </li>
+          <li>
+           <a href="/about/coffeebean.asp#oct">
+            커피빈 커피와 티
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript: void(0);">
+         커피빈 소식
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/news/list.asp">
+            새소식
+           </a>
+          </li>
+          <li>
+           <a href="/promotion/list.asp?category=1">
+            프로모션
+           </a>
+          </li>
+          <li>
+           <a href="/customer/list.asp">
+            공지사항
+           </a>
+          </li>
+          <li>
+           <a href="/social/social.asp">
+            소셜미디어
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript: void(0);">
+         사회공헌
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/about/responsibility.asp">
+            국제 사회공헌
+           </a>
+          </li>
+          <li>
+           <a href="/about/responsibility.asp#part2">
+            필리핀 청소년 교육혜택 지원하기
+           </a>
+          </li>
+          <li>
+           <a href="/about/responsibility.asp#part3">
+            성경원, 나눔의 샘 후원 결연
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="javascript: void(0);">
+         채용안내
+         <div>
+          <span class="first">
+          </span>
+          <span class="last">
+          </span>
+         </div>
+        </a>
+        <div class="depth3">
+         <ul>
+          <li>
+           <a href="/recruit/recruit.asp">
+            채용안내 바로가기
+           </a>
+          </li>
+          <li>
+           <a href="/recruit/recruit.asp#category">
+            채용카테고리
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li>
+        <a href="/about/standing_point.asp">
+         신규 입점 제의
+        </a>
+       </li>
+       <li>
+        <a href="/about/finance.asp">
+         결산공고
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <!-- <li class="depth1">
+				<a href="javascript:void(0);">CUSTOMER RELATIONS</a>
+				<div class="depth2">
+					<div class="tit_box">
+						<h2>CUSTOMER RELATIONS</h2>
+						<a href="javascript:void(0);" class="btn_close">CLOSE</a>
+					</div>
+					<ul>				
+						<li><a href="/customer/faq_list.asp">FAQ</a></li>
+						<li><a href="/customer/barcode.asp">상품권 잔액 확인</a></li>
+						<li><a href="/customer/heavybuying.asp">단체 및 기업구매</a></li>
+						<li><a href="/mypage/qna_write.asp">문의하기</a></li>	
+					</ul>
+				</div>
+			</li> -->
+    <li class="depth1">
+     <a href="javascript:void(0);">
+      CBTL
+     </a>
+     <div class="depth2" style="left: -208px;">
+      <div class="tit_box">
+       <h2>
+        CBTL
+       </h2>
+       <a class="btn_close" href="javascript:void(0);">
+        CLOSE
+       </a>
+      </div>
+      <ul>
+       <li>
+        <a href="/cbtl/cbtl.asp">
+         CBTL 가이드
+        </a>
+       </li>
+       <li>
+        <a href="/cbtl/overview.asp">
+         CBTL 서비스
+        </a>
+       </li>
+       <li>
+        <a href="/cbtl/as_service.asp">
+         AS 안내
+        </a>
+       </li>
+       <li>
+        <a href="/cbtl/as_self.asp">
+         AS 신청
+        </a>
+       </li>
+       <li>
+        <a href="/cbtl/faq_list.asp">
+         CBTL FAQ
+        </a>
+       </li>
+       <li>
+        <a href="/cbtl/manual.asp">
+         제품설명서
+        </a>
+       </li>
+       <!--li><a href="/cbtl/machine.asp">기업용 머신</a></li-->
+      </ul>
+     </div>
+    </li>
+    <!-- <li class="social"><a href="/social/social.asp">SOCIAL MEDIA</a></li> -->
+   </ul>
+  </div>
+  <div class="bg_wrap">
+  </div>
+  <!--//MOBILE GNB-->
+  <!-- start of :: wrap -->
+  <div id="wrap">
+   <!-- start of :: heaer  -->
+   <div id="header">
+    <div class="header_member" style="">
+     <!-- 로그인 전 -->
+     <div class="h_mbr_inner h_mbr_no">
+      <p class="h_mbr_no_txt">
+       <strong class="pcolor4">
+        로그인
+       </strong>
+       을 하시면 커피빈 멤버스 클럽의
+       <br class="d_hidden t_hidden"/>
+       <strong class="pcolor4">
+        다양한혜택
+       </strong>
+       을 받으실 수 있습니다.
+      </p>
+      <div class="btn_box">
+       <a class="btn1" href="/member/login.asp#loginArea">
+        로그인
+       </a>
+       <a class="btn2" href="/member/join1.asp">
+        회원가입
+       </a>
+      </div>
+     </div>
+     <!-- // 로그인 전 -->
+    </div>
+    <!-- // header_member -->
+    <div class="util_menu">
+     <div class="inner_util">
+      <ul>
+       <li>
+        <a class="btn_login" href="/member/login.asp#loginArea">
+         로그인
+        </a>
+       </li>
+       <li>
+        <a href="/store/store.asp">
+         매장찾기
+        </a>
+       </li>
+       <li>
+        <a href="/recruit/recruit.asp">
+         채용정보
+        </a>
+       </li>
+       <li>
+        <a href="/customer/heavybuying.asp">
+         단체 및 기업구매
+        </a>
+       </li>
+       <li>
+        <a href="/customer/customer.asp">
+         고객서비스
+        </a>
+       </li>
+       <li class="btn_h_mbr" id="btnHeaderMember">
+        <a href="#">
+         회원 정보 안내
+        </a>
+       </li>
+       <li class="mybag">
+        <a href="/order/cart.asp">
+         My bag
+         <span class="num">
+          0
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="inner_header">
+     <a class="btn_menu" href="javascript:;">
+      MENU
+     </a>
+     <h1 class="logo">
+      <a href="/main/main.asp">
+       COFFEE BEAN
+      </a>
+     </h1>
+     <div class="gnb" id="gnb">
+      <ul>
+       <li class="buy">
+        <a href="/product/list.asp">
+         BUY ONLINE
+        </a>
+        <div class="depth2">
+         <div class="first">
+          <a href="/product/list.asp">
+           View All
+          </a>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=53">
+            ♥커피빈 가을 나들이 추천 MD
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=56">
+             ♥할인 행사 제품
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=48">
+            분쇄형 커피
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=49">
+             드립백
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=51">
+             소풍커피
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=50">
+            파우치 커피
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=52">
+             파우치 커피
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=46">
+            캡슐 커피
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=47">
+             네스프레소 호환용
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=55">
+             CBTL 호환용
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=4">
+            원두
+           </a>
+          </h2>
+          <ul>
+           <li class="pcolor1">
+            <a href="/product/bean_guide.asp">
+             원두 가이드
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=9">
+             라이트 로스트
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=11">
+             미디엄 로스트
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=12">
+             다크 로스트
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=3">
+            티
+           </a>
+          </h2>
+          <ul>
+           <li class="pcolor1">
+            <a href="/product/tea_guide.asp">
+             티 가이드
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=19">
+             클래식티
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=21">
+             허브티
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=22">
+             프룻티
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=5">
+            상품
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=40">
+             스틱커피
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=41">
+             아이스 텀블러
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=42">
+             보온 텀블러
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=43">
+             머그
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=38">
+             파우더
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=45">
+             푸드
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=32">
+             기타상품
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list w160">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=2">
+            CBTL시스템
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=24">
+             CBTL 머신
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </li>
+       <li class="members_club">
+        <a href="/card/membersclub.asp">
+         MEMBER`S CLUB
+        </a>
+        <div class="depth2">
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/card/membersclub.asp">
+            커피빈 멤버스 클럽
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/card/membersclub.asp">
+             멤버스 클럽
+            </a>
+           </li>
+           <li>
+            <a href="/card/memberscard.asp">
+             커피빈 카드
+            </a>
+           </li>
+           <li>
+            <a href="/card/e_gift.asp">
+             커피빈 e-Gift
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/mypage/my_club.asp">
+            나의 커피빈
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/mypage/my_club.asp">
+             나의 콩/e쿠폰보기
+            </a>
+           </li>
+           <li>
+            <a href="/mypage/my_card_srh.asp">
+             나의 커피빈 카드
+            </a>
+           </li>
+           <li>
+            <a href="/mypage/sign_up.asp">
+             커피빈 카드 등록
+            </a>
+           </li>
+           <li>
+            <a href="/mypage/application.asp">
+             분실신고/환불신청
+            </a>
+           </li>
+           <li>
+            <a href="/mypage/e_gift1.asp">
+             e-Gift 구매
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </li>
+       <!-- <li class="promotion">
+							<a href="/promotion/list.asp">PROMOTION</a>
+							<div class="depth2">
+								<ul>
+									<li><a href="/promotion/list.asp?category=1">Promotion</a></li>
+									<li><a href="/promotion/list.asp?category=2">Promotion Drinks</a></li>
+								</ul>
+							</div>
+						</li> -->
+       <li class="menu">
+        <a href="/menu/list.asp">
+         MENU
+        </a>
+        <div class="depth2">
+         <div class="depth2_list w250">
+          <h2 class="depth_title">
+           <a href="/menu/list.asp">
+            음료
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/menu/list.asp?category=32">
+             신음료
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=13">
+             에스프레소 음료
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=14">
+             브루드 커피
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=18">
+             티
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=17">
+             티 라떼
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=12">
+             아이스 블렌디드 (Coffee)
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=11">
+             아이스 블렌디드 (Non-Coffee)
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=26">
+             커피빈 주스(병음료)
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=24">
+             기타 제조 음료
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list_extra.asp">
+             엑스트라
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list w160">
+          <h2 class="depth_title">
+           <a href="/menu/list.asp?category=4">
+            푸드
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/menu/list.asp?category=4">
+             베이커리
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=5">
+             케익
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=8">
+             홀케익
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=6">
+             샌드위치 &amp; 샐러드
+            </a>
+           </li>
+           <li>
+            <a href="/menu/list.asp?category=7">
+             기타
+            </a>
+           </li>
+           <!--li><a href="/menu/list.asp?category=7">기타	</a></li-->
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/product/list.asp?no=5">
+            상품
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/product/list.asp?no=41">
+             아이스 텀블러
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=42">
+             보온 텀블러
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=43">
+             머그
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=39">
+             소풍커피
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=40">
+             스틱커피
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=38">
+             파우더
+            </a>
+           </li>
+           <li>
+            <a href="/product/list.asp?no=32">
+             기타상품
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list w120">
+          <h2 class="depth_title">
+           <a href="/card/e_gift.asp">
+            카드
+           </a>
+          </h2>
+          <ul>
+           <!--<li><a href="/menu/messagecard.asp">메시지 카드</a></li>-->
+           <li>
+            <a href="/card/e_gift.asp">
+             e-Gift 카드
+            </a>
+           </li>
+           <li>
+            <a href="/card/memberscard.asp">
+             실물 카드
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </li>
+       <li class="store">
+        <a href="/store/store.asp">
+         STORE &amp; 서비스
+        </a>
+        <div class="depth2">
+         <ul>
+          <li>
+           <a href="/catering/catering.asp">
+            케이터링 서비스
+           </a>
+          </li>
+          <li>
+           <a href="/store/store.asp">
+            매장 찾기
+           </a>
+          </li>
+          <li>
+           <a href="/store/store.asp#newStore">
+            신규 매장
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="coffeebean">
+        <a href="/about/coffeebean.asp">
+         THE COFFEE BEAN
+        </a>
+        <div class="depth2">
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/about/coffeebean.asp">
+            커피빈 코리아
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/about/coffeebean.asp">
+             Simply the Best
+            </a>
+           </li>
+           <li>
+            <a href="/about/coffeebean.asp#oct">
+             커피빈 커피와 티
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list w160">
+          <h2 class="depth_title">
+           <a href="/news/list.asp">
+            커피빈 소식
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/news/list.asp">
+             새소식
+            </a>
+           </li>
+           <li>
+            <a href="/promotion/list.asp?category=1">
+             프로모션
+            </a>
+           </li>
+           <li>
+            <a href="/customer/list.asp">
+             공지사항
+            </a>
+           </li>
+           <li>
+            <a href="/social/social.asp">
+             소셜미디어
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list w240">
+          <h2 class="depth_title">
+           <a href="/about/responsibility.asp">
+            사회공헌
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/about/responsibility.asp">
+             국제 사회공헌
+            </a>
+           </li>
+           <li>
+            <a href="/about/responsibility.asp#part2">
+             필리핀 청소년 교육혜택 지원하기
+            </a>
+           </li>
+           <li>
+            <a href="/about/responsibility.asp#part3">
+             성경원, 나눔의 샘 후원 결연
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="depth2_list">
+          <h2 class="depth_title">
+           <a href="/recruit/recruit.asp">
+            채용안내
+           </a>
+          </h2>
+          <ul>
+           <li>
+            <a href="/recruit/recruit.asp">
+             채용안내 바로가기
+            </a>
+           </li>
+           <li>
+            <a href="/recruit/recruit.asp#category">
+             채용카테고리
+            </a>
+           </li>
+          </ul>
+         </div>
+         <ul>
+          <li>
+           <a href="/about/standing_point.asp">
+            <strong>
+             신규 입점 제의
+            </strong>
+           </a>
+          </li>
+          <li>
+           <a href="/about/finance.asp">
+            <strong>
+             결산공고
+            </strong>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <!-- <li class="customer">
+							<a href="/customer/customer.asp">CUSTOMER RELATIONS</a>
+							<div class="depth2">
+								<ul>
+									<li><a href="/customer/faq_list.asp">FAQ</a></li>
+									<li><a href="/customer/barcode.asp">상품권 잔액 확인</a></li>
+									<li><a href="/customer/heavybuying.asp">단체 및 기업구매</a></li>
+									<li><a href="/mypage/qna_write.asp">문의하기</a></li>									
+								</ul>
+							</div>
+						</li> -->
+       <li class="customer">
+        <a href="/cbtl/cbtl.asp">
+         CBTL
+        </a>
+        <div class="depth2">
+         <ul>
+          <li>
+           <a href="/cbtl/cbtl.asp">
+            CBTL 가이드
+           </a>
+          </li>
+          <li>
+           <a href="/cbtl/overview.asp">
+            CBTL 서비스
+           </a>
+          </li>
+          <li>
+           <a href="/cbtl/as_service.asp">
+            AS 안내
+           </a>
+          </li>
+          <li>
+           <a href="/cbtl/as_self.asp">
+            AS 신청
+           </a>
+          </li>
+          <li>
+           <a href="/cbtl/faq_list.asp">
+            CBTL FAQ
+           </a>
+          </li>
+          <li>
+           <a href="/cbtl/manual.asp">
+            제품설명서
+           </a>
+          </li>
+          <!--li><a href="/cbtl/machine.asp">기업용 머신</a></li-->
+         </ul>
+        </div>
+       </li>
+       <!-- <li>
+							<a href="/social/social.asp">SOCIAL MEDIA</a>
+						</li> -->
+      </ul>
+     </div>
+     <div id="btnSearch">
+      <button>
+       검색창 열기
+      </button>
+     </div>
+     <div class="search_box">
+      <form action="javascript:searchRun2();" autocomplete="off" method="get" name="searchForm2">
+       <fieldset>
+        <legend class="hidden">
+         검색 폼
+        </legend>
+        <input class="search_input" id="searchItem2" name="searchItem" onfocus="if(this.value=='검색어를 입력하세요'){this.value='';}" type="text" value="검색어를 입력하세요"/>
+        <button class="btn_search" onclick="javascript:searchRun2();void(0);">
+         SEARCH
+        </button>
+       </fieldset>
+      </form>
+     </div>
+    </div>
+   </div>
+   <!-- <div class="bg_h_mbr"></div> -->
+   <!-- // end of :: header  -->
+   <!-- <a href="javascript:;" class="btn_gnb">GNB BUTTON</a> -->
+   <form action="/search/search_result.asp" autocomplete="off" class="acc-hidden" method="get" name="searchFormReal">
+    <input name="sWord" type="hidden" value=""/>
+   </form>
+   <!--LOCATION-->
+   <div class="location">
+    <ul>
+     <li>
+      <a href="/main/main.asp">
+       홈
+      </a>
+     </li>
+     <li>
+      <a href="/store/store.asp">
+       Store
+      </a>
+     </li>
+     <li>
+      <a href="/store/store.asp">
+       매장찾기
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!--//LOCATION-->
+   <!-- start of :: contents -->
+   <div id="contents2">
+    <div class="store_map">
+     <div id="storeMap" style='width: 100%; height: 100%; position: relative; overflow: hidden; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/bg_tile.png");'>
+      <div style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; touch-action: none; cursor: url("https://t1.daumcdn.net/mapjsapi/images/2x/cursor/openhand.cur.ico") 7 5, url("https://t1.daumcdn.net/mapjsapi/images/2x/cursor/openhand.cur.ico"), default;'>
+       <div style="position: absolute;">
+        <div style="position: absolute; z-index: 0;">
+        </div>
+        <div style="position: absolute; z-index: 1; left: 0px; top: 0px;">
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/987/457.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -22px; top: 514px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/987/458.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 234px; top: 514px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map3.daumcdn.net/map_2d_hd/2209kdm/L4/987/459.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 490px; top: 514px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map0.daumcdn.net/map_2d_hd/2209kdm/L4/987/460.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 746px; top: 514px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/987/461.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1002px; top: 514px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/987/462.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1258px; top: 514px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/988/457.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -22px; top: 258px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/988/458.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 234px; top: 258px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map3.daumcdn.net/map_2d_hd/2209kdm/L4/988/459.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 490px; top: 258px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map0.daumcdn.net/map_2d_hd/2209kdm/L4/988/460.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 746px; top: 258px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/988/461.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1002px; top: 258px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/988/462.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1258px; top: 258px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/989/457.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -22px; top: 2px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/989/458.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 234px; top: 2px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map3.daumcdn.net/map_2d_hd/2209kdm/L4/989/459.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 490px; top: 2px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map0.daumcdn.net/map_2d_hd/2209kdm/L4/989/460.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 746px; top: 2px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/989/461.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1002px; top: 2px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/989/462.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1258px; top: 2px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/990/457.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -22px; top: -254px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/990/458.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 234px; top: -254px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map3.daumcdn.net/map_2d_hd/2209kdm/L4/990/459.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 490px; top: -254px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map0.daumcdn.net/map_2d_hd/2209kdm/L4/990/460.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 746px; top: -254px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map1.daumcdn.net/map_2d_hd/2209kdm/L4/990/461.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1002px; top: -254px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+         <img alt="" draggable="false" src="https://map2.daumcdn.net/map_2d_hd/2209kdm/L4/990/462.png" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1258px; top: -254px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"/>
+        </div>
+        <div style="position: absolute; z-index: 1;">
+        </div>
+        <div style="width: 1200px; height: 750px; position: absolute; z-index: 1;">
+        </div>
+        <div style="position: absolute; z-index: 1;">
+         <svg style="stroke: none; stroke-dashoffset: 0.5; stroke-linejoin: round; fill: none; transform: translateZ(0px); position: absolute; width: 6000px; height: 3750px; left: -2400px; top: -1500px;" version="1.1" viewbox="0 0 6000 3750">
+          <defs>
+          </defs>
+         </svg>
+        </div>
+        <div style="position: absolute; z-index: 1; width: 100%; height: 0px; transform: translateZ(0px);">
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 615px; top: 384px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_1.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="삼성봉은사거리점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 510px; top: 471px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_2.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="코엑스인터점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 601px; top: 533px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_3.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="삼성오크우드점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 821px; top: 378px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_4.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="삼성봉은사로점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 576px; top: 622px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_5.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="도심공항타워점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 683px; top: 615px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_6.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="트레이드타워점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 613px; top: 655px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_7.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="도심공항점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 674px; top: 680px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_8.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="CBTL(커피빈)파르나스몰점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 375px; top: 598px;">
+          <img alt="" draggable="false" src="/images/store/store_icon_9.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="삼성로점"/>
+         </div>
+         <div style="position: absolute; margin: -46px 0px 0px -19px; z-index: 0; left: 584px; top: 798px; display: none;">
+          <img alt="" draggable="false" src="/images/store/store_icon_10.png" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 40px, 47px, 0px); top: 0px; left: 0px; width: 40px; height: 47px;" title="삼성루첸타워점"/>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div style="position: absolute; cursor: default; z-index: 1; margin: 0px 6px; height: 19px; line-height: 14px; left: 0px; bottom: 0px; color: rgb(0, 0, 0);">
+       <div style="color: rgb(0, 0, 0); text-align: center; font-size: 10px; float: left;">
+        <div style="float: left; margin: 2px 3px 0px 4px; height: 6px; transition: width 0.1s ease 0s; border-top: none rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(0, 0, 0); border-image: initial; width: 46px;">
+        </div>
+        <div style="float: left; margin: 0px 4px 0px 0px; font-family: AppleSDGothicNeo-Regular, 돋움, dotum, sans-serif; font-weight: bold; color: rgb(0, 0, 0);">
+         100m
+        </div>
+       </div>
+       <div style="margin: 0px 4px; float: left;">
+        <a href="http://map.kakao.com/" style="float: left; width: 32px; height: 10px;" target="_blank" title="Kakao 지도로 보시려면 클릭하세요.">
+         <img alt="Kakao 지도로 이동" src="https://t1.daumcdn.net/mapjsapi/images/2x/m_bi_b.png" style="float: left; width: 32px; height: 10px; border: none;"/>
+        </a>
+        <div style="font: 11px / 11px Arial, Tahoma, Dotum, sans-serif; float: left;">
+        </div>
+       </div>
+      </div>
+      <div style="cursor: auto; position: absolute; z-index: 2; left: 0px; top: 0px;">
+       <div style="width: 32px; border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 2px 0px; position: absolute; left: 1165px; top: 3px;">
+        <button draggable="false" style='float: left; cursor: pointer; width: 32px; height: 32px; user-select: none; -webkit-user-drag: none; border-top: none; border-right: none; border-bottom: 1px solid rgb(226, 226, 226); border-left: none; border-image: initial; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") -40px 0px / 116px 264px no-repeat rgb(255, 255, 255); border-radius: 3px 3px 0px 0px;' title="확대" type="button">
+        </button>
+        <div style='float: left; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/bg_zoom_control.png") repeat; padding: 7px 0px; transition: height 0s ease 0s, margin 0.1s ease 0s;'>
+         <div style="cursor: pointer; position: relative; background-size: 116px 264px; transition: height 0.1s ease 0s; margin: 2px 0px; display: block; width: 32px; height: 104px;">
+          <div style="position: absolute; width: 4px; height: 100%; background-color: rgb(51, 150, 255); left: 50%; margin: 0px 0px 0px -2px;">
+           <div style='width: 4px; height: 2px; margin-bottom: -2px; bottom: 0px; position: absolute; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") -50px -127px / 116px 264px;'>
+           </div>
+           <div style='width: 4px; height: 2px; margin-top: -2px; top: 0px; position: absolute; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") -40px -100px / 116px 264px;'>
+           </div>
+          </div>
+          <div style="position: absolute; background-color: rgb(204, 204, 204); transition: height 0.1s ease 0s; left: 50%; margin: 0px 0px 0px -2px; width: 4px; height: 24px;">
+          </div>
+          <div style='cursor: row-resize; position: absolute; width: 20px; height: 10px; margin: -4px 0px 0px -10px; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") -40px -80px / 116px 264px; left: 50%; transition: top 0.1s ease 0s; top: 24px;'>
+          </div>
+         </div>
+        </div>
+        <button draggable="false" style='float: left; cursor: pointer; width: 32px; height: 32px; user-select: none; -webkit-user-drag: none; border-top: 1px solid rgb(226, 226, 226); border-right: none; border-bottom: none; border-left: none; border-image: initial; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") -40px -32px / 116px 264px no-repeat rgb(255, 255, 255); border-radius: 0px 0px 3px 3px; margin: 0px;' title="축소" type="button">
+        </button>
+        <div style="display: none; position: absolute; margin: 41px 0px 0px -30px; background-size: 116px 264px; width: 30px; height: 104px;">
+         <div style='position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") 0px -80px / 116px 264px; left: 0px; top: 8px;'>
+         </div>
+         <div style='position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") 0px -100px / 116px 264px; left: 0px; top: 32px;'>
+         </div>
+         <div style='position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") 0px -120px / 116px 264px; left: 0px; top: 64px;'>
+         </div>
+         <div style='position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") 0px -140px / 116px 264px; left: 0px; top: 80px;'>
+         </div>
+         <div style='position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url("https://t1.daumcdn.net/mapjsapi/images/2x/control.png") 0px -160px / 116px 264px; left: 0px; top: 96px;'>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!--img src="/images/_temp/img_store.jpg" alt="임시이미지"-->
+     <!-- store_box -->
+     <div class="store_box">
+      <div class="title_area">
+       <h2>
+        매장찾기
+       </h2>
+       <div class="btn_box">
+        <a class="btn_condition" href="#">
+         조건 설정
+        </a>
+        <a class="btn_here" href="#" id="location">
+         현재 위치
+        </a>
+       </div>
+      </div>
+      <!-- 조건설정 -->
+      <div class="condition_box">
+       <ul>
+        <li>
+         <input class="check_style" id="chkall" name="chkall" type="checkbox" value="1"/>
+         <label class="label_style2" for="chkall">
+          <img alt="all" src="/images/store/ico_tag_check_on.png"/>
+          모두선택
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk1" name="chk1" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk1">
+          <img alt="decaf" src="/images/store/ico_tag_decaf_on.png"/>
+          디카페인
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk2" name="chk2" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk2">
+          <img alt="soy" src="/images/store/ico_tag_soy_on.png"/>
+          두유
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk4" name="chk4" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk4">
+          <img alt="parking" src="/images/store/ico_tag_parking_on.png"/>
+          주차
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk3" name="chk3" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk3">
+          <img alt="wifi" src="/images/store/ico_tag_wifi_on.png"/>
+          와이파이
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk5" name="chk5" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk5">
+          <img alt="smoking" src="/images/store/ico_tag_smoking_on.png"/>
+          흡연가능
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk6" name="chk6" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk6">
+          <img alt="machine" src="/images/store/ico_tag_machine_on.png"/>
+          머신판매
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk7" name="chk7" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk7">
+          <img alt="capsule" src="/images/store/ico_tag_capsule_on.png"/>
+          캡슐판매
+         </label>
+        </li>
+        <!--li>
+								<input type="checkbox" id="chk8" name="chk8" class="check_style" value="1">
+								<label for="chk8" class="label_style2"><img src="/images/store/ico_store_check09.gif" alt="cake">케익수령</label>
+							</li-->
+        <li>
+         <input class="check_style" id="chk9" name="chk9" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk9">
+          <img alt="드라이브 스루" src="/images/store/ico_tag_dt_on.png"/>
+          드라이브 스루
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk10" name="chk10" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk10">
+          <img alt="드라이브 스루" src="/images/store/ico_tag_motorcycle_on.png"/>
+          딜리버리
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk11" name="chk11" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk11">
+          <img alt="반려동물" src="/images/store/ico_tag_pet.png"/>
+          반려동물
+         </label>
+        </li>
+        <li>
+         <input class="check_style" id="chk12" name="chk12" type="checkbox" value="1"/>
+         <label class="label_style2" for="chk12">
+          <img alt="홀케익" src="/images/store/ico_tag_cake_on.png"/>
+          홀케익
+         </label>
+        </li>
+       </ul>
+       <a class="btn_srh" href="javascript:void(0);" id="btnChkSearch">
+        검색하기
+       </a>
+       <button class="btn_close">
+        <img alt="닫기 버튼" src="/images/btn/btn_close2.gif"/>
+       </button>
+      </div>
+      <!-- //조건설정 -->
+      <div class="search_tab">
+       <!-- 빠른검색 -->
+       <h3 class="quick_srh on">
+        <a href="#" id="quick_srh">
+         빠른 검색
+        </a>
+       </h3>
+       <div class="cont">
+        <div class="srh_box">
+         <input data-val="매장명 또는 주소를 입력하세요." id="keyword" name="keyword" onkeydown="if (event.keyCode==13) searchStore();" type="text" value=""/>
+         <button onclick="searchStore();void(0);">
+          <img alt="조회하기" src="/images/sub/btn_quick_srh.gif"/>
+         </button>
+        </div>
+       </div>
+       <!-- 지역검색 -->
+       <h3 class="region_srh">
+        <a href="#" id="region_srh">
+         지역 검색
+        </a>
+       </h3>
+       <div class="cont" style="display: none;">
+        <div class="select_box no_over">
+         <a data-default="시 / 도를 선택해주세요." href="#" id="localTitle">
+          시 / 도를 선택해주세요.
+         </a>
+         <ul id="storeLocal">
+          <li>
+           <a href="javascript:storeLocal2('서울');void(0);">
+            서울
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('경기');void(0);">
+            경기
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('인천');void(0);">
+            인천
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('강원');void(0);">
+            강원
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('경남');void(0);">
+            경남
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('광주');void(0);">
+            광주
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('대구');void(0);">
+            대구
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('대전');void(0);">
+            대전
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('부산');void(0);">
+            부산
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('제주');void(0);">
+            제주
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('충남');void(0);">
+            충남
+           </a>
+          </li>
+          <li>
+           <a href="javascript:storeLocal2('충북');void(0);">
+            충북
+           </a>
+          </li>
+         </ul>
+        </div>
+        <div class="select_box no_over">
+         <a data-default="구 / 군을 선택해주세요." href="#" id="localTitle2">
+          구 / 군을 선택해주세요.
+         </a>
+         <ul id="storeLocal2">
+          <!-- 구/군 리스트 -->
+         </ul>
+        </div>
+       </div>
+       <!-- 펫매장 -->
+       <h3 class="pet_srh">
+        <a href="#" id="pet_srh">
+         펫 동반 매장
+        </a>
+       </h3>
+       <div class="cont" style="display: none;">
+        <div class="srh_box">
+         <input data-val="매장명 또는 주소를 입력하세요." id="petkeyword" name="petkeyword" onkeydown="if (event.keyCode==13) searchPetStore();" type="text" value=""/>
+         <button onclick="searchPetStore();void(0);">
+          <img alt="조회하기" src="/images/sub/btn_quick_srh.gif"/>
+         </button>
+        </div>
+       </div>
+      </div>
+      <!-- store_tab -->
+      <div class="store_tab">
+       <!-- STORE LOCATOR -->
+       <h3 class="store_locator on">
+        <a href="#" id="store_local">
+         STORE LOCATOR
+        </a>
+       </h3>
+       <div class="cont">
+        <ul id="storeListUL">
+         <li data-lat="37.514524" data-lng="127.059475" data-no="31">
+          <div class="num">
+           1
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             삼성봉은사거리점
+             <strong class="distance">
+              34m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('31');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="smoking" title="흡연가능">
+             흡연가능
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+            <span class="delivery" title="딜리버리">
+             딜리버리
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 영동대로 607 1,2층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-3443-5618">
+             02-3443-5618
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.5129451363" data-lng="127.0571155943" data-no="142">
+          <div class="num">
+           2
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             코엑스인터점
+             <strong class="distance">
+              262m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('142');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 봉은사로 524 코엑스 인터컨티넨탈아케이드
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-569-3103">
+             02-569-3103
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.5118232811" data-lng="127.059159722" data-no="29">
+          <div class="num">
+           3
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             삼성오크우드점
+             <strong class="distance">
+              316m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('29');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+           </p>
+           <p class="address">
+            <span>
+             서울 강남구 영동대로 513 컨벤션별관A동 지하 2층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-3466-8507">
+             02-3466-8507
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.514631" data-lng="127.064150" data-no="49">
+          <div class="num">
+           4
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             삼성봉은사로점
+             <strong class="distance">
+              443m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('49');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="smoking" title="흡연가능">
+             흡연가능
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+            <span class="delivery" title="딜리버리">
+             딜리버리
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 봉은사로 628 엘슨빌딩1층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-538-4523">
+             02-538-4523
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.5102341897" data-lng="127.0585974668" data-no="55">
+          <div class="num">
+           5
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             도심공항타워점
+             <strong class="distance">
+              495m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('55');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="smoking" title="흡연가능">
+             흡연가능
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 테헤란로87길 36 공항타워 1층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-2016-5330">
+             02-2016-5330
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.5103554984" data-lng="127.0610225377" data-no="30">
+          <div class="num">
+           6
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             트레이드타워점
+             <strong class="distance">
+              507m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('30');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 영동대로 511 트레이드타워 지하1층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-6002-6470">
+             02-6002-6470
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.5096318963" data-lng="127.0594430149" data-no="203">
+          <div class="num">
+           7
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             도심공항점
+             <strong class="distance">
+              560m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('203');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 테헤란로87길22 도심공항터미널 지하1층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-551-6456 ">
+             02-551-6456
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.5091915107" data-lng="127.0608089556" data-no="209">
+          <div class="num">
+           8
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             CBTL(커피빈)파르나스몰점
+             <strong class="distance">
+              626m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('209');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 테헤란로521 파르나스몰 지하1층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-538-2008 ">
+             02-538-2008
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.510666" data-lng="127.054054" data-no="155">
+          <div class="num">
+           9
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             삼성로점
+             <strong class="distance">
+              631m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('155');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="smoking" title="흡연가능">
+             흡연가능
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+            <span class="delivery" title="딜리버리">
+             딜리버리
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 강남구 삼성로 551 1층,2층
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-552-9311 ">
+             02-552-9311
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-lat="37.50706256458109" data-lng="127.0587759480173" data-no="351">
+          <div class="num">
+           10
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             삼성루첸타워점
+             <strong class="distance">
+              845m
+             </strong>
+            </span>
+            <a class="btn_style6" href="javascript:storePop2('351');void(0);">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <!--span class='cake' title='케익수령'>케익수령</span-->
+            <span class="delivery" title="딜리버리">
+             딜리버리
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울 강남구 대치동 943-2 루첸타워 1층 로비
+            </span>
+            <!--span class="lot"><#StoreAddress2#></span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-994-8879">
+             02-994-8879
+            </a>
+           </p>
+          </div>
+         </li>
+        </ul>
+       </div>
+       <!-- NEW STORE-->
+       <h3 class="store_new">
+        <a href="#" id="store_new">
+         NEW STORE
+        </a>
+       </h3>
+       <div class="cont" style="display: none;">
+        <ul id="newStoreListUL">
+         <li data-addr="경기도 화성시 동탄중앙로220 타임테라스A 블록 1층 110호-1호" data-lat="37.2048573925088" data-lng="127.069311476941" data-name="동탄타임테라스점" data-no="383" data-sort="1" data-tel="031-613-7684">
+          <div class="num">
+           1
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             동탄타임테라스점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('383');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경기도 화성시 동탄중앙로220 타임테라스A 블록 1층 110호-1호
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:031-613-7684">
+             031-613-7684
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 종로구 성균관로 25-2 성균관대학교 법학관 B2" data-lat="37.5872284082508" data-lng="126.993115116294" data-name="성균관대법학관점" data-no="382" data-sort="2" data-tel="02-740-1958">
+          <div class="num">
+           2
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             성균관대법학관점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('382');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 종로구 성균관로 25-2 성균관대학교 법학관 B2
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-740-1958">
+             02-740-1958
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="제주도 제주시 애월읍 애월해안로 560" data-lat="33.4780607099459" data-lng="126.363581175351" data-name="제주애월DT점" data-no="381" data-sort="3" data-tel="064-799-3670">
+          <div class="num">
+           3
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             제주애월DT점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('381');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="drive" title="드라이브 스루">
+             드라이브 스루
+            </span>
+            <span class="pet" title="반려동물">
+             반려동물
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             제주도 제주시 애월읍 애월해안로 560
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:064-799-3670">
+             064-799-3670
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 중구 을지로 66 하나은행 명동사옥 1층" data-lat="37.5651546444578" data-lng="126.985010733916" data-name="하나금융명동사옥점" data-no="380" data-sort="4" data-tel="02-539-5174">
+          <div class="num">
+           4
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             하나금융명동사옥점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('380');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 중구 을지로 66 하나은행 명동사옥 1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-539-5174">
+             02-539-5174
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경남 진주시 충의로 19 LH진주사옥 공감동 1층" data-lat="35.1782456833347" data-lng="128.146167038366" data-name="진주LH본사점" data-no="377" data-sort="5" data-tel="055-763-3520">
+          <div class="num">
+           5
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             진주LH본사점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('377');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경남 진주시 충의로 19 LH진주사옥 공감동 1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:055-763-3520">
+             055-763-3520
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경기도 이천시 대산로288번길 89, 행복1마을 복지A동 지하1층" data-lat="37.2492952596410" data-lng="127.473932156297" data-name="이천하이닉스 행복마을점" data-no="376" data-sort="6" data-tel="031-638-7018">
+          <div class="num">
+           6
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             이천하이닉스 행복마을점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('376');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경기도 이천시 대산로288번길 89, 행복1마을 복지A동 지하1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:031-638-7018">
+             031-638-7018
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 용산구 한강대로 23길 55, 아이파크몰 테이스트파크 7층" data-lat="37.5297718014452" data-lng="126.964741503485" data-name="용산아이파크몰점" data-no="375" data-sort="7" data-tel="02-2012-0731">
+          <div class="num">
+           7
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             용산아이파크몰점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('375');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 용산구 한강대로 23길 55, 아이파크몰 테이스트파크 7층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-2012-0731">
+             02-2012-0731
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울 마포구 상암산로 82 SBS 프리즘 타워 1층 로비" data-lat="37.5797159011058" data-lng="126.892773992481" data-name="상암SBS프리즘타워점" data-no="374" data-sort="8" data-tel="02-562-9605">
+          <div class="num">
+           8
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             상암SBS프리즘타워점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('374');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울 마포구 상암산로 82 SBS 프리즘 타워 1층 로비
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-562-9605">
+             02-562-9605
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경기도 안양시 동안구 엘에스로 127 1층" data-lat="37.3724051471608" data-lng="126.947202895332" data-name="안양LS타워점" data-no="373" data-sort="9" data-tel="031-429-9650">
+          <div class="num">
+           9
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             안양LS타워점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('373');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경기도 안양시 동안구 엘에스로 127 1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:031-429-9650">
+             031-429-9650
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 중구 명동 10길 52 명동역 신한은행 사옥 1층" data-lat="37.5614599246316" data-lng="126.985707093498" data-name="명동거리점" data-no="372" data-sort="10" data-tel="02-522-7158">
+          <div class="num">
+           10
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             명동거리점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('372');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 중구 명동 10길 52 명동역 신한은행 사옥 1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-522-7158">
+             02-522-7158
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경기도 용인시 처인구 포곡읍 가실리 156-1 (파크내 홀랜드빌리지 옆 암스테르담)" data-lat="37.2903638439839" data-lng="127.200511081391" data-name="용인에버랜드점" data-no="371" data-sort="11" data-tel="031-334-0556">
+          <div class="num">
+           11
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             용인에버랜드점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('371');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경기도 용인시 처인구 포곡읍 가실리 156-1 (파크내 홀랜드빌리지 옆 암스테르담)
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:031-334-0556">
+             031-334-0556
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 종로구 대명길 5" data-lat="37.5835220981147" data-lng="127.001154914843" data-name="혜화역점" data-no="370" data-sort="12" data-tel="02-745-9471">
+          <div class="num">
+           12
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             혜화역점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('370');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 종로구 대명길 5
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-745-9471">
+             02-745-9471
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="제주도 제주시 연북로 511" data-lat="33.4844445262988" data-lng="126.534540530554" data-name="제주아라점" data-no="369" data-sort="13" data-tel="064-758-1194">
+          <div class="num">
+           13
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             제주아라점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('369');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             제주도 제주시 연북로 511
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:064-758-1194">
+             064-758-1194
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="충남 천안시 동남구 만남로 48" data-lat="36.8186072282216" data-lng="127.157387077254" data-name="천안신부동점" data-no="368" data-sort="14" data-tel="041-566-0718">
+          <div class="num">
+           14
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             천안신부동점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('368');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             충남 천안시 동남구 만남로 48
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:041-566-0718">
+             041-566-0718
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="부산광역시 중구 중앙대로 102 팬오션빌딩 1F" data-lat="35.1067181869781" data-lng="129.036529466282" data-name="부산중앙역점" data-no="367" data-sort="15" data-tel="051-466-8856">
+          <div class="num">
+           15
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             부산중앙역점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('367');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="smoking" title="흡연가능">
+             흡연가능
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             부산광역시 중구 중앙대로 102 팬오션빌딩 1F
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:051-466-8856">
+             051-466-8856
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경기도 용인시 처인구 역북동 598-7 " data-lat="37.2296433007508" data-lng="127.188439781762" data-name="용인역북점" data-no="366" data-sort="16" data-tel="031-323-6886">
+          <div class="num">
+           16
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             용인역북점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('366');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경기도 용인시 처인구 역북동 598-7
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:031-323-6886">
+             031-323-6886
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="부산광역시 북구 학사로 8  (화명동 2312), 크리스탈타워 2층 201~202호" data-lat="35.2240810071698" data-lng="129.008755219018" data-name="부산화명수정역점" data-no="365" data-sort="17" data-tel="051-361-3370">
+          <div class="num">
+           17
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             부산화명수정역점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('365');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="pet" title="반려동물">
+             반려동물
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             부산광역시 북구 학사로 8  (화명동 2312), 크리스탈타워 2층 201~202호
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:051-361-3370">
+             051-361-3370
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경기도 고양시 일산동구 정발산로 38" data-lat="37.6567152545134" data-lng="126.773131388502" data-name="일산동구청점" data-no="364" data-sort="18" data-tel="031-903-3989">
+          <div class="num">
+           18
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             일산동구청점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('364');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경기도 고양시 일산동구 정발산로 38
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:031-903-3989">
+             031-903-3989
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 서초구 서초중앙로 209, 해성빌딩 1층" data-lat="37.5003183328671" data-lng="127.011825492621" data-name="서초중앙로점" data-no="363" data-sort="19" data-tel="02-537-2992">
+          <div class="num">
+           19
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             서초중앙로점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('363');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 서초구 서초중앙로 209, 해성빌딩 1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-537-2992">
+             02-537-2992
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울 중구 남대문로10길 33 1F" data-lat="37.5678035976862" data-lng="126.984507517226" data-name="청계천을지로점" data-no="362" data-sort="20" data-tel="02-723-1771">
+          <div class="num">
+           20
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             청계천을지로점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('362');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울 중구 남대문로10길 33 1F
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-723-1771">
+             02-723-1771
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 송파구 송파대로 345 ( 헬리오시티상가 3블럭 A동 B1층 22호 )" data-lat="37.4976145695004" data-lng="127.102531804188" data-name="송파헬리오시티점" data-no="361" data-sort="21" data-tel="02-777-3363">
+          <div class="num">
+           21
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             송파헬리오시티점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('361');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="pet" title="반려동물">
+             반려동물
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 송파구 송파대로 345 ( 헬리오시티상가 3블럭 A동 B1층 22호 )
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-777-3363">
+             02-777-3363
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울 강남구 광평로 51길 6-23 원방테크사옥 1층" data-lat="37.4887766507842" data-lng="127.104115178497" data-name="수서역원방빌딩점" data-no="360" data-sort="22" data-tel="02-3473-3830">
+          <div class="num">
+           22
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             수서역원방빌딩점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('360');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="delevery" title="딜리버리">
+             딜리버리
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울 강남구 광평로 51길 6-23 원방테크사옥 1층
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-3473-3830">
+             02-3473-3830
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 노원구 동일로 1405, 1층 일부" data-lat="37.6538310278932" data-lng="127.06017787506" data-name="KB국민은행노원역점" data-no="359" data-sort="23" data-tel="02-930-9486">
+          <div class="num">
+           23
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             KB국민은행노원역점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('359');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 노원구 동일로 1405, 1층 일부
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-930-9486">
+             02-930-9486
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="광주광역시 남구 봉선로 168" data-lat="35.1228180748073" data-lng="126.913660839041" data-name="광주봉선점" data-no="358" data-sort="24" data-tel="062-671-3371">
+          <div class="num">
+           24
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             광주봉선점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('358');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             광주광역시 남구 봉선로 168
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:062-671-3371">
+             062-671-3371
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="서울시 용산구 장문로 23 몬드리안 서울 이태원호텔 101호" data-lat="37.5285655568387" data-lng="126.993107501389" data-name="이태원몬드리안호텔점" data-no="357" data-sort="25" data-tel="02-3775-0548">
+          <div class="num">
+           25
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             이태원몬드리안호텔점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('357');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="soy" title="두유">
+             두유
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+            <span class="delevery" title="딜리버리">
+             딜리버리
+            </span>
+            <span class="hallcake" title="홀케익">
+             홀케익
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             서울시 용산구 장문로 23 몬드리안 서울 이태원호텔 101호
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:02-3775-0548">
+             02-3775-0548
+            </a>
+           </p>
+          </div>
+         </li>
+         <li data-addr="경남 창원시 성산구 중앙대로 104 마이우스오피스텔 123호 207호" data-lat="35.223458" data-lng="128.680805" data-name="창원상남동점" data-no="124" data-sort="26" data-tel="055-211-0737">
+          <div class="num">
+           26
+          </div>
+          <div class="store_txt">
+           <p class="name">
+            <span>
+             창원상남동점
+             <!--strong class="distance">999m</strong-->
+            </span>
+            <!-- 2016-04-11 거리 추가 -->
+            <a class="btn_style6" href="javascript:storePop2('124');">
+             자세히보기
+            </a>
+           </p>
+           <p class="tag">
+            <span class="decaf" title="디카페인">
+             디카페인
+            </span>
+            <span class="parking" title="주차가능">
+             주차가능
+            </span>
+            <span class="wifi" title="와이파이">
+             와이파이
+            </span>
+            <span class="smoking" title="흡연가능">
+             흡연가능
+            </span>
+            <span class="capsule" title="캡슐판매">
+             캡슐판매
+            </span>
+            <span class="cake" title="케익수령">
+             케익수령
+            </span>
+           </p>
+           <p class="address">
+            <span>
+             경남 창원시 성산구 중앙대로 104 마이우스오피스텔 123호 207호
+            </span>
+            <!--span class="lot">서울특별시 강남구 신사동 633-4</span-->
+           </p>
+           <p class="tel">
+            <a href="tel:055-211-0737">
+             055-211-0737
+            </a>
+           </p>
+          </div>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <!-- //store_tab -->
+     </div>
+     <!-- //store_box -->
+    </div>
+    <!-- //store_map -->
+    <div class="store_wrap" id="newStore">
+     <h2 class="title_style1">
+      <span>
+       신규 오픈 매장
+      </span>
+     </h2>
+     <div class="store_slide">
+      <div class="slide_box slick-initialized slick-slider slick-dotted" role="toolbar">
+       <div aria-live="polite" class="slick-list draggable">
+        <div class="slick-track" role="listbox" style="opacity: 1; width: 13120px; transform: translate3d(-1230px, 0px, 0px);">
+         <div aria-hidden="true" class="slick-slide slick-cloned" data-slick-index="-3" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(358);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="광주봉선점" src="/data/store/00.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             광주봉선점
+            </p>
+            <p class="addr">
+             <span>
+              광주광역시 남구 봉선로 168
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              062-671-3371
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-hidden="true" class="slick-slide slick-cloned" data-slick-index="-2" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(357);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="이태원몬드리안호텔점" src="/data/store/15.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             이태원몬드리안호텔점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 용산구 장문로 23 몬드리안 서울 이태원호텔 101호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-3775-0548
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-hidden="true" class="slick-slide slick-cloned" data-slick-index="-1" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(124);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="창원상남동점" src="/data/store/어드민_1.png"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             창원상남동점
+            </p>
+            <p class="addr">
+             <span>
+              경남 창원시 성산구 중앙대로 104 마이우스오피스텔 123호 207호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              055-211-0737
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide00" aria-hidden="false" class="slick-slide slick-current slick-active" data-slick-index="0" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(383);void(0);" tabindex="0">
+           <div class="photo">
+            <img alt="동탄타임테라스점" src="/data/store/어드민1_1.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             동탄타임테라스점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 화성시 동탄중앙로220 타임테라스A 블록 1층 110호-1호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-613-7684
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide01" aria-hidden="false" class="slick-slide slick-active" data-slick-index="1" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(382);void(0);" tabindex="0">
+           <div class="photo">
+            <img alt="성균관대법학관점" src="/data/store/1_83.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             성균관대법학관점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 종로구 성균관로 25-2 성균관대학교 법학관 B2
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-740-1958
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide02" aria-hidden="false" class="slick-slide slick-active" data-slick-index="2" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(381);void(0);" tabindex="0">
+           <div class="photo">
+            <img alt="제주애월DT점" src="/data/store/11.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             제주애월DT점
+            </p>
+            <p class="addr">
+             <span>
+              제주도 제주시 애월읍 애월해안로 560
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              064-799-3670
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide03" aria-hidden="true" class="slick-slide" data-slick-index="3" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(380);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="하나금융명동사옥점" src="/data/store/1_130.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             하나금융명동사옥점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 중구 을지로 66 하나은행 명동사옥 1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-539-5174
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide04" aria-hidden="true" class="slick-slide" data-slick-index="4" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(377);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="진주LH본사점" src="/data/store/1_129.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             진주LH본사점
+            </p>
+            <p class="addr">
+             <span>
+              경남 진주시 충의로 19 LH진주사옥 공감동 1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              055-763-3520
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide05" aria-hidden="true" class="slick-slide" data-slick-index="5" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(376);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="이천하이닉스 행복마을점" src="/data/store/0_7.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             이천하이닉스 행복마을점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 이천시 대산로288번길 89, 행복1마을 복지A동 지하1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-638-7018
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide06" aria-hidden="true" class="slick-slide" data-slick-index="6" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(375);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="용산아이파크몰점" src="/data/store/1_128.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             용산아이파크몰점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 용산구 한강대로 23길 55, 아이파크몰 테이스트파크 7층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-2012-0731
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide07" aria-hidden="true" class="slick-slide" data-slick-index="7" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(374);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="상암SBS프리즘타워점" src="/data/store/3_124.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             상암SBS프리즘타워점
+            </p>
+            <p class="addr">
+             <span>
+              서울 마포구 상암산로 82 SBS 프리즘 타워 1층 로비
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-562-9605
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide08" aria-hidden="true" class="slick-slide" data-slick-index="8" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(373);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="안양LS타워점" src="/data/store/1_122.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             안양LS타워점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 안양시 동안구 엘에스로 127 1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-429-9650
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide09" aria-hidden="true" class="slick-slide" data-slick-index="9" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(372);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="명동거리점" src="/data/store/0_4.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             명동거리점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 중구 명동 10길 52 명동역 신한은행 사옥 1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-522-7158
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide010" aria-hidden="true" class="slick-slide" data-slick-index="10" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(371);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="용인에버랜드점" src="/data/store/0_5.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             용인에버랜드점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 용인시 처인구 포곡읍 가실리 156-1 (파크내 홀랜드빌리지 옆 암스테르담)
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-334-0556
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide011" aria-hidden="true" class="slick-slide" data-slick-index="11" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(370);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="혜화역점" src="/data/store/1_120.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             혜화역점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 종로구 대명길 5
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-745-9471
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide012" aria-hidden="true" class="slick-slide" data-slick-index="12" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(369);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="제주아라점" src="/data/store/1_119.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             제주아라점
+            </p>
+            <p class="addr">
+             <span>
+              제주도 제주시 연북로 511
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              064-758-1194
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide013" aria-hidden="true" class="slick-slide" data-slick-index="13" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(368);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="천안신부동점" src="/data/store/1_117.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             천안신부동점
+            </p>
+            <p class="addr">
+             <span>
+              충남 천안시 동남구 만남로 48
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              041-566-0718
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide014" aria-hidden="true" class="slick-slide" data-slick-index="14" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(367);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="부산중앙역점" src="/data/store/1_116_2.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             부산중앙역점
+            </p>
+            <p class="addr">
+             <span>
+              부산광역시 중구 중앙대로 102 팬오션빌딩 1F
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              051-466-8856
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide015" aria-hidden="true" class="slick-slide" data-slick-index="15" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(366);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="용인역북점" src="/data/store/홈세로형.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             용인역북점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 용인시 처인구 역북동 598-7
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-323-6886
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide016" aria-hidden="true" class="slick-slide" data-slick-index="16" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(365);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="부산화명수정역점" src="/data/store/1_116.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             부산화명수정역점
+            </p>
+            <p class="addr">
+             <span>
+              부산광역시 북구 학사로 8  (화명동 2312), 크리스탈타워 2층 201~202호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              051-361-3370
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide017" aria-hidden="true" class="slick-slide" data-slick-index="17" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(364);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="일산동구청점" src="/data/store/1_115.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             일산동구청점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 고양시 일산동구 정발산로 38
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-903-3989
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide018" aria-hidden="true" class="slick-slide" data-slick-index="18" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(363);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="서초중앙로점" src="/data/store/1_114.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             서초중앙로점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 서초구 서초중앙로 209, 해성빌딩 1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-537-2992
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide019" aria-hidden="true" class="slick-slide" data-slick-index="19" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(362);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="청계천을지로점" src="/data/store/1_113.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             청계천을지로점
+            </p>
+            <p class="addr">
+             <span>
+              서울 중구 남대문로10길 33 1F
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-723-1771
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide020" aria-hidden="true" class="slick-slide" data-slick-index="20" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(361);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="송파헬리오시티점" src="/data/store/1_111.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             송파헬리오시티점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 송파구 송파대로 345 ( 헬리오시티상가 3블럭 A동 B1층 22호 )
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-777-3363
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide021" aria-hidden="true" class="slick-slide" data-slick-index="21" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(360);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="수서역원방빌딩점" src="/data/store/1_110.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             수서역원방빌딩점
+            </p>
+            <p class="addr">
+             <span>
+              서울 강남구 광평로 51길 6-23 원방테크사옥 1층
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-3473-3830
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide022" aria-hidden="true" class="slick-slide" data-slick-index="22" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(359);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="KB국민은행노원역점" src="/data/store/0_3.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             KB국민은행노원역점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 노원구 동일로 1405, 1층 일부
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-930-9486
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide023" aria-hidden="true" class="slick-slide" data-slick-index="23" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(358);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="광주봉선점" src="/data/store/00.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             광주봉선점
+            </p>
+            <p class="addr">
+             <span>
+              광주광역시 남구 봉선로 168
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              062-671-3371
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide024" aria-hidden="true" class="slick-slide" data-slick-index="24" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(357);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="이태원몬드리안호텔점" src="/data/store/15.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             이태원몬드리안호텔점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 용산구 장문로 23 몬드리안 서울 이태원호텔 101호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-3775-0548
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-describedby="slick-slide025" aria-hidden="true" class="slick-slide" data-slick-index="25" role="option" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(124);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="창원상남동점" src="/data/store/어드민_1.png"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             창원상남동점
+            </p>
+            <p class="addr">
+             <span>
+              경남 창원시 성산구 중앙대로 104 마이우스오피스텔 123호 207호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              055-211-0737
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-hidden="true" class="slick-slide slick-cloned" data-slick-index="26" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(383);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="동탄타임테라스점" src="/data/store/어드민1_1.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             동탄타임테라스점
+            </p>
+            <p class="addr">
+             <span>
+              경기도 화성시 동탄중앙로220 타임테라스A 블록 1층 110호-1호
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              031-613-7684
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-hidden="true" class="slick-slide slick-cloned" data-slick-index="27" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(382);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="성균관대법학관점" src="/data/store/1_83.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             성균관대법학관점
+            </p>
+            <p class="addr">
+             <span>
+              서울시 종로구 성균관로 25-2 성균관대학교 법학관 B2
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              02-740-1958
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+         <div aria-hidden="true" class="slick-slide slick-cloned" data-slick-index="28" style="width: 380px;" tabindex="-1">
+          <a href="javascript:storePop2(381);void(0);" tabindex="-1">
+           <div class="photo">
+            <img alt="제주애월DT점" src="/data/store/11.jpg"/>
+           </div>
+           <div class="txt_box">
+            <p class="name">
+             제주애월DT점
+            </p>
+            <p class="addr">
+             <span>
+              제주도 제주시 애월읍 애월해안로 560
+             </span>
+             <!--span class="lot">서울특별시 강남구 신사동 648-12</span-->
+             <span>
+              064-799-3670
+             </span>
+            </p>
+           </div>
+          </a>
+         </div>
+        </div>
+       </div>
+       <ul class="slick-dots" role="tablist" style="display: block;">
+        <li aria-controls="navigation00" aria-hidden="false" aria-selected="true" class="slick-active" id="slick-slide00" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          1
+         </button>
+        </li>
+        <li aria-controls="navigation01" aria-hidden="true" aria-selected="false" id="slick-slide01" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          2
+         </button>
+        </li>
+        <li aria-controls="navigation02" aria-hidden="true" aria-selected="false" id="slick-slide02" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          3
+         </button>
+        </li>
+        <li aria-controls="navigation03" aria-hidden="true" aria-selected="false" id="slick-slide03" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          4
+         </button>
+        </li>
+        <li aria-controls="navigation04" aria-hidden="true" aria-selected="false" id="slick-slide04" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          5
+         </button>
+        </li>
+        <li aria-controls="navigation05" aria-hidden="true" aria-selected="false" id="slick-slide05" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          6
+         </button>
+        </li>
+        <li aria-controls="navigation06" aria-hidden="true" aria-selected="false" id="slick-slide06" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          7
+         </button>
+        </li>
+        <li aria-controls="navigation07" aria-hidden="true" aria-selected="false" id="slick-slide07" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          8
+         </button>
+        </li>
+        <li aria-controls="navigation08" aria-hidden="true" aria-selected="false" id="slick-slide08" role="presentation">
+         <button data-role="none" role="button" tabindex="0" type="button">
+          9
+         </button>
+        </li>
+       </ul>
+      </div>
+      <button class="btn_controls play" id="btnControls1" style="display: inline;">
+       pause/play
+      </button>
+     </div>
+     <!-- //store_slide -->
+    </div>
+    <!-- //store_wrap -->
+    <div id="hiddenSNS" style="display:none;">
+     <div class="ssSocial-Sharing" data-btnimage="/images/_temp/ico_twitter.png,/images/_temp/ico_facebook.png,/images/_temp/ico_kakaostory.png" data-requestsns="T,F,KS" data-requesturl="//www.coffeebeankorea.com/store/store.asp">
+     </div>
+    </div>
+   </div>
+   <script>
+    var headerH = jQuery('#header').innerHeight();
+				// 페이지 이동 시
+				$(window).load(function(){
+					var memberH = jQuery('.header_member').height();
+					// Remove the # from the hash, as different browsers may or may not include it
+					var hash = location.hash.replace('#','');
+					//console.log(hash);
+					if(hash != ''){
+						//console.log($('[id="' + hash + '"]'));
+						var hashOffset = $('[id="' + hash + '"]').offset();
+					   // Clear the hash in the URL
+					   // location.hash = '';   // delete front "//" if you want to change the address bar
+						$('html, body').animate({ 
+							scrollTop: hashOffset.top - (headerH + memberH + 20)
+						}, 300);
+
+					}
+				});
+				jQuery(function() {
+					// 링크 클릭시
+					jQuery('a[href*="/store/store.asp#"]:not([href="#"])').click(function() {
+						var memberH = jQuery('.header_member').height();
+						var targetOffset = $('[id="' + $.attr(this, 'href').substr(17) + '"]').offset();
+						var moveNum = jQuery('.gnb_m').css('width');
+						//console.log($('[id="' + $.attr(this, 'href').substr(26) + '"]'));
+						//console.log(targetOffset);
+						jQuery('#wrap').animate({left:0},200,function(e){
+							jQuery('#wrap').removeClass('on');
+							jQuery('body').removeClass('gnb_on');
+						});
+						jQuery('.gnb_m .depth2:not(:animated)').animate({left:'-'+moveNum},200);
+						jQuery('.gnb_m:not(:animated)').animate({left:'-'+moveNum},200);
+						jQuery('.gnb_m').css('overflow-y', 'scroll');
+						jQuery('.gnb_m .depth2 > ul > li > a').removeClass('on').children('span').removeClass('on');
+						jQuery('.gnb_m .depth3').slideUp();
+						jQuery('.bg_wrap').hide();
+						jQuery('html, body').animate({
+							scrollTop: targetOffset.top - (headerH + memberH + 20)
+						}, 300);
+						return false;	
+					});
+				});
+   </script>
+   <!-- end of :: contents -->
+   <!-- start of :: footer -->
+   <div id="footer">
+    <div class="inner_footer">
+     <div class="sitemap">
+      <div>
+       <div style="width: 205px">
+        <h2>
+         Buy Online
+        </h2>
+        <ul>
+         <li>
+          <a href="/product/list.asp">
+           VIEW ALL
+          </a>
+         </li>
+         <li>
+          <a href="/product/list.asp?no=4">
+           커피
+          </a>
+         </li>
+         <li>
+          <a href="/product/list.asp?no=3">
+           티
+          </a>
+         </li>
+         <li>
+          <a href="/product/list.asp?no=2">
+           CBTL 시스템
+          </a>
+         </li>
+         <li>
+          <a href="/product/list.asp?no=5">
+           상품
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div style="width: 240px">
+        <h2>
+         Member`s Club
+        </h2>
+        <ul>
+         <li>
+          <a href="/card/about.asp">
+           커피빈 멤버스 클럽
+          </a>
+         </li>
+         <li>
+          <a href="/mypage/my_club.asp">
+           나의 커피빈
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- <div>
+							<h2>Promotion</h2>
+							<ul>
+								<li><a href="/promotion/list.asp">PROMOTION</a></li>
+								<li><a href="/promotion/list.asp">PROMOTION DRINKS</a></li>
+							</ul>
+						</div> -->
+       <div style="width: 165px">
+        <h2>
+         Menu
+        </h2>
+        <ul>
+         <li>
+          <a href="/menu/list.asp">
+           음료
+          </a>
+         </li>
+         <li>
+          <a href="/menu/list.asp?category2=2">
+           푸드
+          </a>
+         </li>
+         <li>
+          <a href="/menu/list.asp?category2=2">
+           상품
+          </a>
+         </li>
+         <li>
+          <a href="/card/e_gift.asp">
+           카드
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div style="width: 160px">
+        <h2>
+         Store &amp; 서비스
+        </h2>
+        <ul>
+         <li>
+          <a href="/catering/catering.asp">
+           케이터링 서비스
+          </a>
+         </li>
+         <li>
+          <a href="/store/store.asp">
+           매장 찾기
+          </a>
+         </li>
+         <li>
+          <a href="/store/store.asp?category=2">
+           신규 매장
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- 					</div>
+					
+					<div class="sitemap_bottom"> -->
+       <div style="width: 250px">
+        <h2>
+         The Coffee Bean
+        </h2>
+        <ul>
+         <li>
+          <a href="/about/coffeebean.asp">
+           커피빈 코리아
+          </a>
+         </li>
+         <li>
+          <a href="/news/list.asp">
+           커피빈 소식
+          </a>
+         </li>
+         <li>
+          <a href="/about/responsibility.asp">
+           사회공헌
+          </a>
+         </li>
+         <li>
+          <a href="/customer/marketing.asp">
+           <b>
+            제휴 마케팅 제안
+           </b>
+          </a>
+         </li>
+         <li>
+          <a href="/recruit/recruit.asp">
+           채용안내
+          </a>
+         </li>
+         <li>
+          <a href="/about/standing_point.asp">
+           신규 입점 제의
+          </a>
+         </li>
+         <li>
+          <a href="/about/finance.asp">
+           결산공고
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- 	<div>
+							<h2>Customer Relations</h2>
+							<ul>
+								<li><a href="/customer/faq_list.asp">FAQ</a></li>
+								<li><a href="/mypage/qna_write.asp">고객의 소리</a></li>
+								<li><a href="/mypage/qna_write.asp">CBTL SERVICE</a></li>
+								<li><a href="/customer/barcode.asp">상품권 잔액확인</a></li>
+								<li><a href="/customer/heavybuying.asp">기업 및 단체구매</a></li>
+							</ul>
+						</div> -->
+       <div style="width: 180px">
+        <h2>
+         CBTL
+        </h2>
+        <ul>
+         <li>
+          <a href="/cbtl/cbtl.asp">
+           CBTL 가이드
+          </a>
+         </li>
+         <li>
+          <a href="/cbtl/overview.asp">
+           CBTL 서비스
+          </a>
+         </li>
+         <li>
+          <a href="/cbtl/as_service.asp">
+           AS 안내
+          </a>
+         </li>
+         <li>
+          <a href="/cbtl/as_self.asp">
+           AS 신청
+          </a>
+         </li>
+         <li>
+          <a href="/cbtl/faq_list.asp">
+           CBTL FAQ
+          </a>
+         </li>
+         <li>
+          <a href="/cbtl/manual.asp">
+           제품설명서
+          </a>
+         </li>
+         <!--li><a href="/cbtl/machine.asp">기업용 머신</a></li-->
+        </ul>
+       </div>
+       <!-- <div>
+							<h2>Social Media</h2>
+							<ul>
+								<li><a href="https://www.facebook.com/thecoffeebeankorea/" target="_blank">FACEBOOK</a></li>
+								<li><a href="https://www.instagram.com/coffeebeankorea/" target="_blank">INSTAGRAM</a></li>
+								<li><a href="http://blog.naver.com/coffeebeankorea" target="_blank">BLOG</a></li>
+								<li><a href="https://twitter.com/coffeebean_kr" target="_blank">TWITTER</a></li>
+							</ul>
+						</div> -->
+       <!-- <div>
+							<h2>Site Terms</h2>
+							<ul>
+								<li><a href="/member/agree.asp">이용약관</a></li>
+								<li><a href="/member/privacy.asp" class="fc03">개인정보취급방침</a></li>
+								<li><a href="/etc/policy.asp">영상정보처리기기운영방침</a></li>
+								<li><a href="/member/memberscard_agree.asp">멤버스카드이용약관</a></li>
+							</ul>
+						</div> -->
+      </div>
+     </div>
+     <div class="sns_box sns_style">
+      <a class="ico_facebook" href="https://www.facebook.com/thecoffeebeankorea/" target="_blank">
+       FACEBOOK
+      </a>
+      <a class="ico_instagram" href="https://www.instagram.com/coffeebean_kr/" target="_blank">
+       INSTAGRAM
+      </a>
+      <a class="ico_blog" href="http://blog.naver.com/coffeebeankorea" target="_blank">
+       BLOG
+      </a>
+      <a class="ico_twitter" href="https://twitter.com/coffeebean_kr" target="_blank">
+       TWITTER
+      </a>
+      <!-- <a href="javascript:;" class="btn_top">TOP</a> -->
+     </div>
+     <div class="txt_box">
+      <div class="link">
+       <!--a href="/member/agree.asp">이용약관</a>ㅣ<a href="/member/privacy.asp" class="fc01">개인정보처리방침</a>ㅣ<a href="/etc/policy.asp">영상정보처리기기운영방침</a>ㅣ<a href="/member/memberscard_agree.asp">멤버스카드이용약관</a-->
+       <!--19-12-30 위치기반 서비스 추가&변경-->
+       <a href="/member/agree.asp">
+        홈페이지 이용약관
+       </a>
+       ㅣ
+       <a class="fc01" href="/member/privacy.asp">
+        개인정보처리방침
+       </a>
+       ㅣ
+       <a href="/etc/policy.asp">
+        영상정보처리기기운영방침
+       </a>
+       ㅣ
+       <a href="/member/memberscard_agree.asp">
+        멤버스카드이용약관
+       </a>
+       ㅣ
+       <a href="/member/location.asp">
+        위치기반서비스 이용약관
+       </a>
+       <!--//19-12-30 위치기반 서비스 추가-->
+      </div>
+      <!--2018-07-02 패밀리사이트 추가-->
+      <div class="f-familysite">
+       <!--패밀리사이트 오픈시 클래스 open-->
+       <div class="inner">
+        <div>
+         <a class="btn-family" href="#">
+          Family Site
+         </a>
+         <div class="family-box">
+          <div class="family-box--top">
+           <p class="tit">
+            FAMILY SITE
+           </p>
+           <a href="#">
+            CLOSE
+           </a>
+          </div>
+          <div class="fashion-box">
+           <p>
+            <span>
+             ---FASHION---
+            </span>
+           </p>
+           <ul>
+            <li>
+             <a href="http://www.cathkidstonkorea.co.kr/" target="_blank">
+              캐스키드슨
+             </a>
+            </li>
+            <li>
+             <a href="http://www.nealsyardkorea.com/" target="_blank">
+              닐스야드 레머디스
+             </a>
+            </li>
+            <li>
+             <a href="http://www.aldoshoeskorea.com/" target="_blank">
+              알도
+             </a>
+            </li>
+            <li>
+             <a href="http://www.lesportsackorea.com/" target="_blank">
+              레스포색
+             </a>
+            </li>
+            <li>
+             <a href="https://www.etamkorea.com/" target="_blank">
+              에탐
+             </a>
+            </li>
+            <li>
+             <a href="http://www.kinkirobot.com/" target="_blank">
+              킨키로봇
+             </a>
+            </li>
+            <li>
+             <a href="http://www.monicavinader.co.kr/" target="_blank">
+              모니카비니더
+             </a>
+            </li>
+            <li>
+             <a href="https://www.repetto.kr/" target="_blank">
+              레페토
+             </a>
+            </li>
+            <li>
+             <a href="http://www.lancasterkorea.com/" target="_blank">
+              랑카스터
+             </a>
+            </li>
+            <li>
+             <a href="http://www.agathakorea.com/" target="_blank">
+              아가타
+             </a>
+            </li>
+            <li>
+             <a href="http://www.fauxpaspariskorea.com/" target="_blank">
+              뽀빠파리
+             </a>
+            </li>
+            <li>
+             <a href="http://www.bricskorea.co.kr/" target="_blank">
+              브릭스
+             </a>
+            </li>
+            <li>
+             <a href="#" target="_blank">
+              판도라
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="beauty-box">
+           <p>
+            <span>
+             ---BEAUTY---
+            </span>
+           </p>
+           <ul>
+            <li>
+             <a href="http://www.aippo.co.kr/" target="_blank">
+              아이뽀
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="fnb-box">
+           <p>
+            <span>
+             ----F&amp;b----
+            </span>
+           </p>
+           <ul>
+            <li>
+             <a href="http://www.kyotokatsugyu.com/" target="_blank">
+              교토가츠규
+             </a>
+            </li>
+            <li>
+             <a href="http://www.kusmiteakorea.com/" target="_blank">
+              쿠스미
+             </a>
+            </li>
+           </ul>
+          </div>
+          <!-- 									<div class="etc-box">
+										<p><span>---자매회사---</span></p>
+										<ul>
+											<li><a href="http://www.coffeebeankorea.com/main/main.asp" target="_blank">커피빈</a></li>
+										</ul>
+									</div> -->
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--//2018-07-02 패밀리사이트 추가-->
+      <div class="address">
+       (주)커피빈코리아 대표이사 감종철
+       <span class="m_hidden">
+        ㅣ
+       </span>
+       <br class="d_hidden t_hidden"/>
+       사업자등록번호 120-86-07029
+       <span class="m_hidden">
+        ㅣ
+       </span>
+       <br class="d_hidden t_hidden"/>
+       통신판매업신고 제 2010-서울강남-00560
+       <br/>
+       서울시 강남구 봉은사로 99길 7
+       <span class="m_hidden">
+        ㅣ
+       </span>
+       <br class="d_hidden t_hidden"/>
+       고객센터 02-1577-4708 (09:00  - 18:00)
+       <span class="m_hidden">
+        ㅣ
+       </span>
+       <br class="d_hidden t_hidden"/>
+       E-mail : cbk@coffeebeankorea.com
+       <br/>
+       <!--호스팅사업자 : SK브로드밴드<br/>-->
+       ⓒ 2021. The Coffee Bean. All rights reserved.
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- end of :: footer -->
+   <p id="backTop2" style="display: none;">
+    <a href="#top">
+     <span>
+      TOP
+     </span>
+    </a>
+   </p>
+   <iframe id="dataFrame" name="dataFrame" style="display:none;">
+   </iframe>
+  </div>
+  <!-- end of :: wrap -->
+ </body>
+</html>
