@@ -1,8 +1,5 @@
-import os
-import sys
 import urllib.request
 import datetime
-import time
 import json
 
 client_id = "11"
