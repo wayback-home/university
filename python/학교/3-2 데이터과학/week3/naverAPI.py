@@ -1,6 +1,10 @@
 import urllib.request
 import datetime
 import json
+import ssl
+
+context = ssl._create_unverified_context()
+
 
 client_id = "_gJra_F38hGKFUClmgh3"
 client_secret = "8wTUNbdKRV"
@@ -12,7 +16,7 @@ def getRequestUrl(url):
     req.add_header("X-Naver-Client-Secret", client_secret)
 
     try:
-        response = urllib.request.urlopen(req)
+        response = urllib.request.urlopen(req,context=context)
         if response.getcode() == 200:
             print("[%s] Url Request Success" % datetime.datetime.now())
             return response.read().decode("utf-8")
