@@ -5,4 +5,6 @@
     "prettier.tabWidth": 4,
     "python.analysis.extraPaths": ["//학교//2-1 객체지향프로그래밍//"],
     "python.analysis.logLevel": "Trace"
+    "python.analysis.typeCheckingMode": "basic"
+
 }
