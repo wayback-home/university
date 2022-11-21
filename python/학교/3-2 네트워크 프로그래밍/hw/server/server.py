@@ -1,3 +1,4 @@
+# 서버 -> 클라이언트
 import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -18,6 +19,7 @@ with open(filename, "rb") as fd:
 
 sock.close()
 
+# 서버 <- 클라이언트
 # import socket
 # import threading
 
