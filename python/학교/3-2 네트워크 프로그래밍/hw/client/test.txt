@@ -1,2 +1,0 @@
-client to server
-test message file
